@@ -1,0 +1,8 @@
+.footer{
+  @apply flex justify-center bg-dark px-10 py-20 max-sm:px-4 max-sm:py-8;
+
+  &__content{
+    @apply flex w-full max-w-container flex-col gap-[64px] text-white;
+  }
+
+}

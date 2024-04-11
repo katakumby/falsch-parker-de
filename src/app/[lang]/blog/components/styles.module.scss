@@ -1,0 +1,5 @@
+.postDetailsButton {
+  @apply relative box-content flex h-[48px] w-[48px] items-center justify-center rounded-full border-[10px] border-light bg-dark;
+  @apply after:content-[""] after:bg-transparent after:w-[58px] after:h-[58px] after:absolute after:bottom-0 after:right-[58px] after:rounded-br-[27px] after:shadow-[10px_33px_0_0_#F5F7F9];
+  @apply before:content-[""] before:bg-transparent before:w-[58px] before:h-[58px] before:absolute before:bottom-[58px] before:right-0 before:rounded-br-[27px] before:shadow-[33px_10px_0_0_#F5F7F9];
+}

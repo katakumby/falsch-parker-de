@@ -1,0 +1,15 @@
+.mainOpenAppShape {
+  &__left{
+    @apply left-[0px] top-[-64px] ;
+    @apply relative before:bg-transparent before:absolute before:content-[""] before:rounded-bl-card before:border-light;
+    @apply before:h-[64px] before:w-[64px];
+    @apply before:shadow-[-10px_10px_0_10px_#F5F7F9];
+  }
+
+  &__bottom{
+    @apply right-[0px] bottom-[64px] absolute;
+    @apply  before:bg-transparent before:absolute before:content-[""] before:rounded-bl-card;
+    @apply before:h-[64px] before:w-[64px];
+    @apply before:shadow-[-10px_10px_0_10px_#F5F7F9];
+  }
+}

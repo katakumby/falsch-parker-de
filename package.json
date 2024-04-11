@@ -1,0 +1,38 @@
+{
+  "name": "falsch-parker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "@portabletext/react": "^3.0.15",
+    "@sanity/client": "^6.15.7",
+    "@sanity/image-url": "^1.0.2",
+    "classnames": "^2.5.1",
+    "i18next": "^23.10.1",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-resources-to-backend": "^1.2.0",
+    "negotiator": "^0.6.3",
+    "next": "14.1.4",
+    "prettier": "^3.2.5",
+    "react": "^18",
+    "react-cookie": "^7.1.0",
+    "react-dom": "^18",
+    "react-i18next": "^14.1.0",
+    "react-modal": "^3.16.1",
+    "react-scroll": "^1.9.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "sass": "^1.72.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
