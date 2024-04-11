@@ -1,4 +1,4 @@
-const defaultLocale = 'en';
+const defaultLocale = 'de';
 const locales = [defaultLocale, 'de'];
 const defaultNamespace = 'common';
 const localeCookie = 'i18next';
