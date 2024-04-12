@@ -15,7 +15,7 @@ export const Claim = () => {
     <div className='relative h-[700px] w-full overflow-hidden rounded-card'>
       <div className='absolute left-0 z-[1] flex h-full items-center p-16 max-lg:items-end max-lg:p-8'>
         <div className='flex flex-col justify-between gap-10 text-white max-xl:max-w-[300px] max-lg:max-w-full max-lg:gap-6 xl:max-w-[500px] '>
-          <h4 className='text-6xl max-md:text-5xl'>Umtriebsentschädigung.</h4>
+          <h4 className='text-4xl max-md:text-2xl'>Umtriebsentschädigung.</h4>
           <span className='text-xl max-md:text-base'>
             Als Eigentümer oder Mieter eines Grundstücks haben Sie Anspruch auf
             eine Umtriebsentschädigung für den entstandenen Aufwand.

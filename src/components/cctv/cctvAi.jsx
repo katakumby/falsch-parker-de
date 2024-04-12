@@ -47,14 +47,15 @@ export const CCTVAi = () => {
           <div className='absolute bottom-[100px] left-[100px] z-[1] flex flex-col max-md:bottom-[40px] max-md:left-[40px] max-md:right-[40px]'>
             <span className='gradient-text bg-gradient-to-r from-white/50 to-white bg-clip-text text-8xl text-transparent max-md:text-5xl'>
               <span className='max-lg:text-5xl max-sm:hidden'>
-                Your CCTV & <br /> our AI automation.
+                CCTV & <br /> Automatisierung <br /> durch KI.
               </span>
               <span className='text-4xl sm:hidden'>
-                Your <br /> CCTV <br />& our AI <br /> automation.
+                CCTV <br /> & <br />
+                Automatisierung <br /> durch KI.
               </span>
             </span>
             <span className='gradient-text bg-gradient-to-r from-white/30 to-white/70 bg-clip-text pt-10 text-4xl text-transparent max-md:text-base '>
-              Connect your CCTV infrastructure to our app.
+              CCTV-Schnittstellenlösung zur Falschparker Web-App.
             </span>
           </div>
           <Image

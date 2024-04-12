@@ -26,11 +26,12 @@ export const HowItWorksSection = () => {
             />
           </div>
           <div className='flex h-full w-1/2 items-center max-md:w-full md:w-1/2'>
-            <div className='max-w-[480px] pr-5 text-white'>
-              <div className='pb-9 text-7xl'>
-                Unbürokratische Bearbeitung von Tanktflucht.
+            <div className='max-w-[480px] pr-10 text-white'>
+              <div className='pb-9 text-4xl'>
+                Ein kleiner Schritt für Sie - ein großer ökonomischen Sprung für
+                Ihren Betrieb.
               </div>
-              <div className='text-xl'>
+              <div className='text-lg'>
                 Das Hochladen des Beweismaterials, bestehend aus einem Foto des
                 Videoclips aus Ihrem Überwachungssystem und des Tankbelegs.
               </div>
@@ -49,12 +50,12 @@ export const HowItWorksSection = () => {
               />
             </div>
           ) : (
-            <div className='flex h-full w-full items-center p-5'>
+            <div className='flex h-full w-full items-center p-10'>
               <div className='w-full text-white '>
-                <div className='pb-9 text-7xl max-sm:text-5xl'>
+                <div className='pb-9 text-5xl max-sm:text-3xl'>
                   Unbürokratische Bearbeitung von Tanktflucht.
                 </div>
-                <div className='text-xl max-sm:text-lg'>
+                <div className='text-xl max-sm:text-base'>
                   Das Hochladen des Beweismaterials, bestehend aus einem Foto
                   des Videoclips aus Ihrem Überwachungssystem und des
                   Tankbelegs.

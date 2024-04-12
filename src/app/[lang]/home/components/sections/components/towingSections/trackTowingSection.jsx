@@ -43,7 +43,7 @@ export const TrackTowingSection = () => {
 
       <div className='relative h-[730px] rounded-bl-card rounded-tl-card rounded-tr-card bg-green max-lg:h-[450px] md:w-1/2'>
         <div className='gradient-text top-0 z-[1] flex h-full w-full items-center justify-center bg-gradient-to-r from-white/90 to-white/60 bg-clip-text text-transparent'>
-          <span className='text-center max-md:text-4xl md:text-5xl lg:text-7xl'>
+          <span className='px-3 text-center max-md:text-4xl md:text-5xl lg:text-7xl'>
             Möchten Sie Abschlepp-Partner werden?
           </span>
         </div>

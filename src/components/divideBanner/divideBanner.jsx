@@ -20,7 +20,7 @@ export const DivideBanner = ({
           ))}
         </div>
       )}
-      <div className='border-b border-black pb-14 text-8xl max-md:pb-8 max-md:text-[32px]'>
+      <div className='border-b border-black pb-14 text-6xl max-md:pb-8 max-md:text-3xl'>
         {title}
       </div>
       <div className='flex pt-14 max-md:pt-8'>

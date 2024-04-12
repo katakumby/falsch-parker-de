@@ -11,6 +11,20 @@ import { ArrowLeft } from '@/components/icons/arrowLeft';
 import { ArrowRight } from '@/components/icons/arrowRight';
 import { useRouter } from 'next/navigation';
 
+const appInfo = [
+  { text: 'Falschparker erfassen', number: '01' },
+  { text: 'Beweisfoto aufnehmen', number: '02' },
+  { text: 'Standort bestätigen', number: '03' },
+  { text: 'Umtriebs- Entschädigung erfassen', number: '04' },
+];
+const appQrInfo = [
+  { text: 'Falschparker erfassen', number: '01' },
+  { text: 'Beweisfoto aufnehmen', number: '02' },
+  { text: 'QR-Code scannen', number: '03' },
+  { text: 'Standort bestätigen', number: '04' },
+  { text: 'Umtriebs- Entschädigung erfassen', number: '05' },
+];
+
 const RenderImageBlock = () => {
   return (
     <div className='relative h-full w-1/2 max-md:w-full max-md:pl-0'>
@@ -24,28 +38,17 @@ const RenderImageBlock = () => {
   );
 };
 
-// TODO: complete content translation
-
 const RenderTextBlock = (isOnlyApp) => {
+  const data = isOnlyApp ? appInfo : appQrInfo;
   return (
     <div className='flex h-[760px] w-1/2 items-center justify-center max-md:h-[580px] max-md:w-full'>
       <div className='w-full px-5 md:max-w-[530px]'>
-        <div className='flex justify-between py-5 text-2xl max-md:text-xl'>
-          <span className='text-dark'>Falschparker erfassen</span>
-          <span className='ml-5 text-dark/50'>01</span>
-        </div>
-        <div className='flex items-center justify-between border-y-[1px] border-dark/10 py-5 text-2xl max-md:text-xl'>
-          <span className='text-dark'>
-            {isOnlyApp
-              ? 'Check that illegal parking situation is well documented.'
-              : 'Scan the QR code.'}
-          </span>
-          <span className='ml-5 text-dark/50'>02</span>
-        </div>
-        <div className='flex  justify-between py-5 text-2xl max-md:text-xl'>
-          <span className='text-dark'>Standort bestätigen</span>
-          <span className='ml-5 text-dark/50'>03</span>
-        </div>
+        {data.map((el) => (
+          <div className='flex justify-between border-b border-dark/10 py-5 text-2xl last:border-0 max-md:text-xl'>
+            <span className='text-dark'>{el.text}</span>
+            <span className='ml-5 text-dark/50'>{el.number}</span>
+          </div>
+        ))}
       </div>
     </div>
   );

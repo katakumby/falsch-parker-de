@@ -11,9 +11,9 @@ import { AskForm } from '@/components/faq/askForm';
 const faqList = [
   {
     title:
-      'Is the use of the service completely free of charge, and are there any additional costs for users?',
+      'Ist die Nutzung des Dienstes vollständig kostenlos, und entstehen den Benutzern zusätzliche Kosten?',
     content:
-      'Absolutely, the use of our service is completely free for all users, and there are no additional fees.',
+      'Ja, die Nutzung des Dienstes ist vollständig kostenlos, und es entstehen keinerlei zusätzliche Kosten für die Benutzer.',
   },
   {
     title: 'Who is liable in case of disputes?',
@@ -48,14 +48,15 @@ export const FaqSection = () => {
             <ArrowDotButton
               onClick={() => setIsOpenAskQuestion(true)}
               theme='dark'>
-              Ask your question
+              Stellen Sie Ihre Frage
             </ArrowDotButton>
           </div>
         </div>
 
         <h5 className='mb-20 max-md:text-3xl md:text-8xl lg:text-9xl'>
-          You asked, <br />
-          we answer.
+          Sie fragen,
+          <br />
+          wir antworten.
         </h5>
 
         <div className='w-full'>
@@ -66,7 +67,7 @@ export const FaqSection = () => {
           <ArrowDotButton
             onClick={() => setIsOpenAskQuestion(true)}
             theme='dark'>
-            Ask your question
+            Stellen Sie Ihre Frage
           </ArrowDotButton>
         </div>
       </div>

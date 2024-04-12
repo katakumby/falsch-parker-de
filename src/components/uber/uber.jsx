@@ -17,7 +17,7 @@ export const Uber = () => {
       <div className='relative h-[700px] w-full overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[580px]'>
         {isFirstScreen ? (
           <div className='relative h-full w-full'>
-            <div className='absolute z-[1] flex flex-col p-[100px] text-8xl text-white max-md:p-10 max-md:text-4xl'>
+            <div className='absolute z-[1] flex flex-col p-[100px] text-8xl text-white max-md:p-10 max-md:text-3xl'>
               <span className='text-white'>
                 <span className='text-white/50'>
                   Abschleppdienst <br /> nach

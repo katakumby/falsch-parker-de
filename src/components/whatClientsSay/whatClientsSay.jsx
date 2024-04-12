@@ -49,8 +49,9 @@ export const WhatClientsSay = ({ usersInfo }) => {
       <div className='hidden w-full rounded-card bg-white p-10 sm:flex lg:p-20'>
         <div className='w-1/3 px-3'>
           <span className='text-2xl'>
-            Here's what <br />
-            our clients say.
+            Das sagen
+            <br />
+            unsere Kunden.
           </span>
         </div>
         <div className='flex w-2/3 flex-col gap-20'>
@@ -68,8 +69,7 @@ export const WhatClientsSay = ({ usersInfo }) => {
 
       <div className='hidden h-full w-full flex-col max-sm:flex'>
         <span className='mb-9 text-[32px]'>
-          Here's what <br />
-          our clients say.
+          Das sagen <br /> unsere Kunden.
         </span>
 
         <div className='no-scrollbar flex w-full gap-4 overflow-x-scroll pb-[10px]'>

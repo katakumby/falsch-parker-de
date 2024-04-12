@@ -13,21 +13,21 @@ const usersInfo = [
     userName: 'John Smith',
     userInfo: 'Facility Manager, GreenTech Solutions',
     userComment:
-      "“The Falsch-Parker app has revolutionized our parking space management. It's user-friendly and incredibly efficient. Since we started using it, illegal parking issues have dropped significantly.”",
+      '“Die Falsch-Parker-App hat unsere Parkraumbewirtschaftung revolutioniert. Die App ist benutzerfreundlich und unglaublich effizient. Seit ihrer Einführung sind die Probleme mit illegalem Parken deutlich zurückgegangen.”',
   },
   {
     userImage: User2,
     userName: 'Emily Johnson',
     userInfo: 'Head of Operations, Urban Real Estate',
     userComment:
-      '“Implementing this app in our residential complexes has been a game changer. The ease of reporting and processing claims has made parking enforcement much simpler and more effective.”',
+      '“Die Implementierung dieser App in unseren Wohnsiedlungen war ein Paradigmenwechsel. Die einfache Meldung und Bearbeitung von Falschparkern hat die Parkplatzüberwachung wesentlich einfacher und effektiver gemacht.”',
   },
   {
     userImage: User3,
     userName: 'Mark Lee',
     userInfo: 'Security Supervisor, Downtown Mall',
     userComment:
-      '“Implementing this app in our residential complexes has been a game changer. The ease of reporting and processing claims has made parking enforcement much simpler and more effective.”',
+      '“Die Falschparker-App, zusammen mit ihren Park Guards, hat unsere Parkplatzsicherheit verbessert. Das QR-Ticketsystem ist innovativ und hat unbefugtes Parken erheblich reduziert.”',
   },
 ];
 
@@ -36,7 +36,7 @@ export const TestimonialsSection = () => {
     <Container>
       <div className='mb-[170px] max-md:mb-[100px]'>
         <div className='mb-9'>
-          <SectionTitle title='Testimonials' />
+          <SectionTitle title='Referenzen' />
         </div>
         <WhatClientsSay usersInfo={usersInfo} />
       </div>
