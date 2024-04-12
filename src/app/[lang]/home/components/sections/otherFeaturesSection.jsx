@@ -14,12 +14,13 @@ export const OtherFeaturesSection = () => {
         <div className='my-[172px] max-md:mb-[40px] max-md:mt-[100px]'>
           <DivideBanner
             sectionTitles={[
-              'CCTV & AI',
-              'White label solution',
-              'Parking ticket',
+              'Videoüberwachung & KI',
+              'White label Lösung',
+              'Parkbussen',
             ]}
-            title='Other features we offer for our clients.'
-            subtitle='Learn how we use AI to help you fine wrong parkers. And discover our white label solution for companies.'
+            title='Weitere Produkte, die wir unseren Kunden anbieten.'
+            subtitle='Entdecken Sie, wie wir KI einsetzen, um Falschparker
+            zu erkennen, und erfahren Sie mehr über unsere White-Label-Lösung für Unternehmen.'
             images={[VideoCamera, Picture, Blank]}
           />
         </div>

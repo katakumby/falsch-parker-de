@@ -28,12 +28,11 @@ export const HowItWorksSection = () => {
           <div className='flex h-full w-1/2 items-center max-md:w-full md:w-1/2'>
             <div className='max-w-[480px] pr-5 text-white'>
               <div className='pb-9 text-7xl'>
-                Reduce <br /> fuel theft.
+                Unbürokratische Bearbeitung von Tanktflucht.
               </div>
               <div className='text-xl'>
-                To ensure legal certainty, take a clear photo of the illegally
-                parked vehicle with its license plate visible. Remember, a court
-                prohibition notice is required for compensation claims.
+                Das Hochladen des Beweismaterials, bestehend aus einem Foto des
+                Videoclips aus Ihrem Überwachungssystem und des Tankbelegs.
               </div>
             </div>
           </div>
@@ -53,12 +52,12 @@ export const HowItWorksSection = () => {
             <div className='flex h-full w-full items-center p-5'>
               <div className='w-full text-white '>
                 <div className='pb-9 text-7xl max-sm:text-5xl'>
-                  Reduce <br /> fuel theft.
+                  Unbürokratische Bearbeitung von Tanktflucht.
                 </div>
                 <div className='text-xl max-sm:text-lg'>
-                  To ensure legal certainty, take a clear photo of the illegally
-                  parked vehicle with its license plate visible. Remember, a
-                  court prohibition notice is required for compensation claims.
+                  Das Hochladen des Beweismaterials, bestehend aus einem Foto
+                  des Videoclips aus Ihrem Überwachungssystem und des
+                  Tankbelegs.
                 </div>
               </div>
             </div>

@@ -19,11 +19,14 @@ export const Uber = () => {
           <div className='relative h-full w-full'>
             <div className='absolute z-[1] flex flex-col p-[100px] text-8xl text-white max-md:p-10 max-md:text-4xl'>
               <span className='text-white'>
-                Uber <br />
-                <span className='text-white/50'>for towing.</span>
+                <span className='text-white/50'>
+                  Abschleppdienst <br /> nach
+                </span>
+                <br />
+                <span>UBER-Prinzip.</span>
               </span>
               <span className='text-xl max-md:text-lg max-sm:mt-5 max-sm:max-w-[150px] max-sm:text-base sm:mt-12'>
-                Our app requires only 2 minutes of processing time.
+                Für ein rasches Eintreffen eines Abschleppwagens.
               </span>
             </div>
             <Image

@@ -22,11 +22,8 @@ export const TrackTowingSection = () => {
   return (
     <div className='flex w-full gap-5 max-md:flex-col'>
       <div className='relative h-[730px] overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-lg:h-[450px] md:w-1/2'>
-        <div className='absolute top-0 z-[1] flex w-full flex-col p-8 text-center text-dark max-md:text-4xl md:text-5xl lg:text-7xl'>
-          <span>
-            Track <br /> towing truck.
-          </span>
-          <span className='text-dark/50'>with live GPS</span>
+        <div className='absolute top-0 z-[1] flex w-full flex-col p-8 text-center text-dark max-md:text-3xl md:text-4xl lg:text-6xl'>
+          <span>Ankunftszeit in Echtzeit (GPS) des Fahrers mitverfolgen.</span>
         </div>
         <Image
           src={MobileAppMap}
@@ -47,12 +44,12 @@ export const TrackTowingSection = () => {
       <div className='relative h-[730px] rounded-bl-card rounded-tl-card rounded-tr-card bg-green max-lg:h-[450px] md:w-1/2'>
         <div className='gradient-text top-0 z-[1] flex h-full w-full items-center justify-center bg-gradient-to-r from-white/90 to-white/60 bg-clip-text text-transparent'>
           <span className='text-center max-md:text-4xl md:text-5xl lg:text-7xl'>
-            Are you a towing company?
+            Möchten Sie Abschlepp-Partner werden?
           </span>
         </div>
 
         <div className='absolute bottom-[19px] right-[90px] z-[1] text-base text-light'>
-          <span>Join now</span>
+          <span>Jetzt anmelden</span>
         </div>
         <CornerButtonContainer>
           <RoundButton

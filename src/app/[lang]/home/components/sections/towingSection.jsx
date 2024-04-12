@@ -22,9 +22,12 @@ export const TowingSection = () => {
     <Container>
       <Element name='towing' className='my-[170px] max-md:my-[100px]'>
         <DivideBanner
-          sectionTitles={['Towing']}
-          title='Tow from business and private parkings now.'
-          subtitle='We have 60 cars in our towing car pool and more than 12 towing companies are connected to our app.'
+          sectionTitles={['Abschleppdienst']}
+          title='Jetzt auf Firmen- und Privatparkplätzen abschleppen.'
+          subtitle='Unser Abschleppdienstleister-Netzwerk besteht aus
+          verschiedenen Unternehmen in Ihrer Umgebung. Durch die automatische
+          Erfassung der nahegelegenen Abschleppfahrer mittels GPS-Signal wird
+          eine schnelle Ankunftszeit des Abschleppwagens am Einsatzort sichergestellt.'
           images={[EyeIcon, PhotoIcon, Towing]}
         />
       </Element>
@@ -39,21 +42,23 @@ export const TowingSection = () => {
         desktopClassesImg='ml-[16%] mt-[10%] object-contain max-md:ml-[18%] max-md:mt-[5%]'
         descDesktop={
           <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-            <span className='pb-9 text-7xl'>Tow away.</span>
+            <span className='pb-9 text-7xl'>Abschleppen lassen.</span>
             <span className='text-xl'>
-              To ensure legal certainty, take a clear photo of the illegally
-              parked vehicle with its license plate visible. Remember, a court
-              prohibition notice is required for compensation claims.
+              Um Rechtssicherheit zu gewährleisten, machen Sie ein gut
+              sichtbares Foto des illegal geparkten Fahrzeugs mit sichtbarem
+              Kennzeichen.
             </span>
           </div>
         }
         descMobile={
           <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-            <span className='pb-9 text-7xl max-md:text-4xl'>Tow away.</span>
+            <span className='pb-9 text-7xl max-md:text-4xl'>
+              Abschleppen lassen.
+            </span>
             <span className='text-xl'>
-              To ensure legal certainty, take a clear photo of the illegally
-              parked vehicle with its license plate visible. Remember, a court
-              prohibition notice is required for compensation claims.
+              Um Rechtssicherheit zu gewährleisten, machen Sie ein gut
+              sichtbares Foto des illegal geparkten Fahrzeugs mit sichtbarem
+              Kennzeichen.
             </span>
           </div>
         }

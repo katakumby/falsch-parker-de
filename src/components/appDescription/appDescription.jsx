@@ -24,10 +24,7 @@ const RenderImageBlock = () => {
   );
 };
 
-//  		01
-// Beweisfoto aufnehmen 		02
-// 			03
-// Umtriebs- Entschädigung erfassen	04
+// TODO: complete content translation
 
 const RenderTextBlock = (isOnlyApp) => {
   return (

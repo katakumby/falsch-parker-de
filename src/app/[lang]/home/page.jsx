@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef } from 'react';
+import React from 'react';
 import { TrustedBySection } from '@/app/[lang]/home/components/sections/trustedBySection';
 import { MainSection } from '@/app/[lang]/home/components/sections/mainSection';
 import { OurProductsSection } from '@/app/[lang]/home/components/sections/ourProductsSection';
@@ -12,15 +12,6 @@ import { OtherFeaturesSection } from '@/app/[lang]/home/components/sections/othe
 import { FaqSection } from '@/components/faq/faqSection';
 
 const Page = () => {
-  const ourProductsSectionRef = useRef(null);
-
-  const scrollToOurProductsSection = () => {
-    ourProductsSectionRef.current?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  };
-
   return (
     <section>
       <MainSection />
