@@ -14,9 +14,12 @@ export const ParkingTicketSection = () => {
     <Container>
       <Element name='parking-ticket' className='my-[170px] max-md:my-[100px]'>
         <DivideBanner
-          sectionTitles={['Parking ticket']}
-          title='Execute parking ticket on your business parkings now.'
-          subtitle='All from your phone! Use falsch-parker for hassle-free reporting of illegal parking.'
+          sectionTitles={['Umtriebsentschädigung']}
+          title='Falschparker mit digitaler Parkbusse auf Privatparkplätzen büssen.'
+          subtitle='Die Falsch-Parker-Web-App bietet wirkungsvolle Massnahmen um
+          gegen Falschparker vorzugehen. Unsere Web-App eignet sich für alle
+          Unternehmen wie Immobilienbewirtschafter, Shopping Center, Retail,
+          Gastronomie, Spitäler mit mehreren Parkplätzen, wie auch für Private mit nur einem Parkplatz.'
           images={[EyeIcon, FormIcon, MarkIcon, PhotoIcon]}
         />
       </Element>

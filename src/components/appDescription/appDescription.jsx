@@ -24,12 +24,17 @@ const RenderImageBlock = () => {
   );
 };
 
+//  		01
+// Beweisfoto aufnehmen 		02
+// 			03
+// Umtriebs- Entschädigung erfassen	04
+
 const RenderTextBlock = (isOnlyApp) => {
   return (
     <div className='flex h-[760px] w-1/2 items-center justify-center max-md:h-[580px] max-md:w-full'>
       <div className='w-full px-5 md:max-w-[530px]'>
         <div className='flex justify-between py-5 text-2xl max-md:text-xl'>
-          <span className='text-dark'>Take a picture of wrong parker.</span>
+          <span className='text-dark'>Falschparker erfassen</span>
           <span className='ml-5 text-dark/50'>01</span>
         </div>
         <div className='flex items-center justify-between border-y-[1px] border-dark/10 py-5 text-2xl max-md:text-xl'>
@@ -41,7 +46,7 @@ const RenderTextBlock = (isOnlyApp) => {
           <span className='ml-5 text-dark/50'>02</span>
         </div>
         <div className='flex  justify-between py-5 text-2xl max-md:text-xl'>
-          <span className='text-dark'>Confirm the location.</span>
+          <span className='text-dark'>Standort bestätigen</span>
           <span className='ml-5 text-dark/50'>03</span>
         </div>
       </div>
@@ -78,7 +83,7 @@ export const AppDescription = () => {
                     <div
                       onClick={openQrCode}
                       className={`-mb-[1px] w-1/2 cursor-pointer border-b-[1px] pb-[7px] text-center ${isOnlyApp ? 'border-dark' : 'border-transparent'} ${isOnlyApp ? 'text-dark' : 'text-dark/50'}`}>
-                      Only App
+                      App
                     </div>
                     <div
                       onClick={openApp}
@@ -129,7 +134,7 @@ export const AppDescription = () => {
             <div
               onClick={openQrCode}
               className={`-mb-[1px] w-[40%] cursor-pointer border-b-[1px] pb-[7px] text-center max-sm:text-[18px] ${isOnlyApp ? 'border-dark' : 'border-transparent'} ${isOnlyApp ? 'text-dark' : 'text-dark/50'}`}>
-              Only App
+              App
             </div>
             <div
               onClick={openApp}

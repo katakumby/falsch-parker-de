@@ -10,8 +10,8 @@ export const MainOpenAppShape = () => {
         <div className={styles.mainOpenAppShape__left}></div>
         <div className={styles.mainOpenAppShape__bottom}></div>
         <div className='absolute bottom-0 left-0 flex h-full flex-col justify-between'>
-          <span className='block max-w-[250px] pt-5 text-3xl max-lg:text-2xl lg:max-w-[500px]'>
-            One app for park management & illegal parking reports
+          <span className='block max-w-[250px] pt-5 text-2xl max-lg:text-xl lg:max-w-[500px]'>
+            All-in-One Parkraummanagement-Web-App zur Bekämpfung von Falschparkern.
           </span>
           <Link to='ourProducts' smooth={true} offset={-90} duration={1000}>
             <ArrowDownRoundButton />
