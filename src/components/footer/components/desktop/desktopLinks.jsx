@@ -10,7 +10,7 @@ const DesktopLinks = ({ lang }) => {
     <div className='grid flex-1 grid-flow-col grid-cols-[repeat(3,_auto)] grid-rows-[repeat(2,_min-content)] justify-between gap-x-10 gap-y-10 font-light max-xl:grid-cols-[repeat(2,_auto)] max-xl:grid-rows-[repeat(3,_min-content)] max-lg:hidden'>
       {footerLinks.map((section) => (
         <div className='flex flex-col gap-2' key={section.title}>
-          <span className='text-2xl'>{section.title}</span>
+          <span className='text-xl'>{section.title}</span>
           {section.links.map((link) => (
             <FooterLink
               key={link.title}

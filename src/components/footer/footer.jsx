@@ -30,23 +30,23 @@ const Footer = ({ lang }) => {
   return (
     <div className={styles.footer}>
       <div className={styles.footer__content}>
-        <div className='flex gap-24 max-lg:contents'>
+        <div className='flex gap-20 max-lg:contents'>
           <div className='flex flex-col gap-12'>
             <div className='flex flex-col gap-8'>
               <span className='text-6xl max-lg:text-4xl'>
-                Increased <br /> illegal parking?
+                Mehr Falschparker <br /> auf Ihren Parkplätzen?
               </span>
               <span className='text-xl font-light opacity-50 max-lg:text-base'>
-                We’re here to help you to solve the problem
+                Wir sind hier, um Ihnen bei der Lösung des Problems zu helfen
               </span>
             </div>
             <ArrowDotButton theme='light' onClick={goToContactUs}>
-              Contact us
+              Kontaktieren Sie uns
             </ArrowDotButton>
             <div className='contents max-lg:hidden'>
               <div className='flex flex-col gap-1'>
                 <span className='text-xl font-light opacity-50'>
-                  Or just give us a call.
+                  Oder rufen Sie uns einfach an.
                 </span>
                 <Link
                   href='tel:+41 44 123 45 67'

@@ -8,7 +8,7 @@ const FooterLink = ({ href, children }) => {
     <Container
       href={href}
       className={cl(
-        'whitespace-pre text-xl font-light opacity-50 transition-opacity duration-300',
+        'whitespace-pre text-lg font-light opacity-50 transition-opacity duration-300',
         href ? 'hover:opacity-30' : ''
       )}>
       {children}
