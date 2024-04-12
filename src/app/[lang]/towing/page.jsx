@@ -2,8 +2,10 @@ import React from 'react';
 import { Container } from '@/components/container/container';
 import { FaqSection } from '@/components/faq/faqSection';
 import { FullControl } from '@/components/fullControl/fullControl';
+
 import FullControlTowing from '@/images/full-fraud/towing.png';
 import FullControlTowingMobile from '@/images/full-fraud/towing-mobile.png';
+
 import { DivideBanner } from '@/components/divideBanner/divideBanner';
 import EyeIcon from '@/images/global/icons/divideIcons/eye.svg';
 import PhotoIcon from '@/images/global/icons/divideIcons/photo.svg';

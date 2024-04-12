@@ -3,6 +3,7 @@
   "app": "App",
   "parkingTicket": "Parking ticket",
   "towing": "Towing",
+  "fuelFraud": "Fuel Fraud",
   "blog": "Blog",
   "contact": "Contact"
 }

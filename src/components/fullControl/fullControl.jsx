@@ -1,8 +1,15 @@
+'use client'
+
 import React from 'react';
 import { ArrowDotButton } from '@/components/buttons/arrowDotButton';
 import Image from 'next/image';
 
 const FullControl = ({ cover, subtitle, smallCover }) => {
+
+  const openApp = () => {
+    window.open('https://app.falsch-parker.ch/', '_blank');
+  };
+
   return (
     <div className='h-card relative flex flex-col overflow-hidden rounded-card bg-dark p-20 max-md:justify-end max-md:p-10 max-sm:p-6'>
       <div className='pointer-events-none absolute bottom-0 left-0 right-0 top-0 m-10 -mb-16 max-xl:-mb-10 max-lg:mb-0 max-md:hidden'>
@@ -25,7 +32,7 @@ const FullControl = ({ cover, subtitle, smallCover }) => {
         <h1 className='text-7xl max-md:text-5xl'>Full control.</h1>
         <p className='text-xl max-md:text-base'>{subtitle}</p>
         <div className='flex max-md:justify-center'>
-          <ArrowDotButton theme='light'>Open app</ArrowDotButton>
+          <ArrowDotButton theme='light' onClick={openApp}>Open app</ArrowDotButton>
         </div>
       </div>
     </div>

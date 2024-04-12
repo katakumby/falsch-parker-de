@@ -19,7 +19,7 @@ const RenderButtons = ({ setScreen, isTwoScreen, onClick }) => {
             onClick={onClick || goToBlock}
             theme='light'
             icon={ArrowRight}
-            animation='group-hover:scale-125'
+            animation='group-hover:scale-125 group-hover:-rotate-45'
           />
         </CornerButtonContainer>
       </div>

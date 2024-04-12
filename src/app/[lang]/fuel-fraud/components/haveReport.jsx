@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import { OpenAppButton } from '@/components/buttons/openAppButton';
 import Image from 'next/image';
