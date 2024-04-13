@@ -46,15 +46,16 @@ export const OurServices = () => {
     <div className='h-full w-full overflow-hidden'>
       <div className='relative flex h-[700px] w-full overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-lg:hidden'>
         <div className='absolute z-[2] flex h-full flex-col justify-center pl-[100px] pr-[50px] text-2xl text-dark max-xl:w-[50%] lg:w-[50%] xl:w-[60%]'>
-          <span className='pb-9 text-7xl max-xl:text-6xl'>Our services.</span>
-          <span className='text-xl max-xl:text-lg max-sm:text-base'>
-            We offer our customers in Geneva a comprehensive towing service and
-            compensation for illegal parking on private property. Our team of
-            experienced towing specialists is equipped with the latest equipment
-            to remove illegally parked vehicles quickly and safely. We work
-            closely with our customers to ensure that their parking spaces are
-            always accessible and that they do not have to tolerate unauthorized
-            parking visitors.
+          <span className='pb-9 text-7xl max-xl:text-6xl'>
+            Unsere Leistungen
+          </span>
+          <span className='text-xl max-md:text-lg max-sm:text-base'>
+            Unser Abschleppservice in Winterthur umfasst die rasche Entfernung
+            von Fahrzeugen, die unberechtigt auf Privatgrundstücken geparkt
+            haben. Mit modernster Ausrüstung und erfahrenem Personal
+            gewährleisten wir, dass Ihre Parkplätze stets frei bleiben. Wir
+            arbeiten eng mit Ihnen zusammen, um individuelle Lösungen zu finden
+            und sicherzustellen, dass Ihre Parkplätze immer zugänglich sind.
           </span>
         </div>
         <Image
@@ -68,27 +69,27 @@ export const OurServices = () => {
 
       <div className='relative hidden h-[580px] max-lg:flex lg:hidden'>
         {isTwoScreen ? (
-          <div className='flex h-[760px] w-full  items-center justify-center rounded-card bg-white px-10 max-md:h-[580px] max-md:w-full'>
+          <div className='flex w-full  items-center justify-center rounded-card bg-white px-10 max-md:h-[580px] max-md:w-full'>
             <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-              <span className='pb-9 text-7xl max-md:text-4xl'>
-                Our services.
+              <span className='pb-9 text-7xl max-md:text-3xl'>
+                Unsere Leistungen
               </span>
-              <span className='text-xl max-sm:text-base'>
-                We offer our customers in Geneva a comprehensive towing service
-                and compensation for illegal parking on private property. Our
-                team of experienced towing specialists is equipped with the
-                latest equipment to remove illegally parked vehicles quickly and
-                safely. We work closely with our customers to ensure that their
-                parking spaces are always accessible and that they do not have
-                to tolerate unauthorized parking visitors.
+              <span className='text-xl max-md:text-base'>
+                Unser Abschleppservice in Winterthur umfasst die rasche
+                Entfernung von Fahrzeugen, die unberechtigt auf
+                Privatgrundstücken geparkt haben. Mit modernster Ausrüstung und
+                erfahrenem Personal gewährleisten wir, dass Ihre Parkplätze
+                stets frei bleiben. Wir arbeiten eng mit Ihnen zusammen, um
+                individuelle Lösungen zu finden und sicherzustellen, dass Ihre
+                Parkplätze immer zugänglich sind.
               </span>
             </div>
           </div>
         ) : (
           <div className='relative h-full w-full overflow-hidden  rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[580px] max-md:w-full max-md:pl-0'>
             <div className='absolute z-[2] p-7'>
-              <span className='text-[50px] leading-none text-dark'>
-                Our <br /> services.
+              <span className='text-[50px] leading-none text-dark max-sm:text-3xl'>
+                Unsere <br /> Leistungen.
               </span>
             </div>
             <Image
