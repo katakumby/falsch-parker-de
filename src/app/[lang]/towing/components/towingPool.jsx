@@ -15,9 +15,9 @@ const RenderTowingPool = () => {
 
   return (
     <div className='relative h-[730px] w-1/2 overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[350px] max-md:w-full '>
-      <div className='absolute z-[2] p-[50px] max-md:p-10'>
-        <span className='text-[80px] leading-tight  text-white max-xl:text-[45px] max-md:text-[36px] max-sm:text-[34px]'>
-          Biggest towing pool in Switzerland.
+      <div className='absolute z-[2] p-10'>
+        <span className='text-4xl leading-tight text-white max-xl:text-3xl max-lg:text-xl max-md:text-4xl max-sm:text-xl'>
+          Grösste Abschleppdienstleister-Pool.
         </span>
       </div>
       <Image

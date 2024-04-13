@@ -23,8 +23,8 @@ const TowingPage = () => {
       <section>
         <div className='mt-20 max-md:mt-[100]'>
           <DivideBanner
-            title='Tow from business and private parkings now.'
-            subtitle='You’re allowed to tow wrong parkers on your private parking.'
+            title='Jetzt auf Firmen- und Privatparkplätze abschleppen.'
+            subtitle='Sie haben das Recht, Falschparker auf Ihrem Parkplatz abschleppen zu lassen.'
             images={[EyeIcon, PhotoIcon, TowingIcon]}
           />
         </div>
@@ -40,22 +40,24 @@ const TowingPage = () => {
           mobileClassesImg='ml-[16%] mt-[10%] object-contain max-md:ml-[16%] max-md:mt-[5%]'
           desktopClassesImg='ml-[16%] mt-[10%] object-contain max-md:ml-[18%] max-md:mt-[5%]'
           descDesktop={
-            <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-              <span className='pb-9 text-7xl'>Tow away.</span>
+            <div className='flex flex-col justify-between py-5 text-dark'>
+              <span className='pb-9 text-5xl max-xl:text-3xl'>
+                Abschleppwagen anfordern.
+              </span>
               <span className='text-xl'>
-                To ensure legal certainty, take a clear photo of the illegally
-                parked vehicle with its license plate visible. Remember, a court
-                prohibition notice is required for compensation claims.
+                Rasch und unbürokratisch einen Abschleppwagen in nur 20 Sekunden
+                anfordern, ohne persönlich vor Ort sein zu müssen.
               </span>
             </div>
           }
           descMobile={
             <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-              <span className='pb-9 text-7xl max-md:text-4xl'>Tow away.</span>
+              <span className='pb-9 text-6xl max-md:text-4xl'>
+                Abschleppwagen anfordern.
+              </span>
               <span className='text-xl'>
-                To ensure legal certainty, take a clear photo of the illegally
-                parked vehicle with its license plate visible. Remember, a court
-                prohibition notice is required for compensation claims.
+                Rasch und unbürokratisch einen Abschleppwagen in nur 20 Sekunden
+                anfordern, ohne persönlich vor Ort sein zu müssen.
               </span>
             </div>
           }
@@ -69,9 +71,7 @@ const TowingPage = () => {
           <FullControl
             smallCover={FullControlTowingMobile}
             cover={FullControlTowing}
-            subtitle='Over the app and dashboard you can
-        order nearest Towing car free of charge. And
-        you can see all details in real time.'
+            subtitle='Verfolgen Sie in Echtzeit den aktuellen Standort des Fahrers, um die genaue Ankunftszeit zu ermitteln.'
           />
         </div>
 
