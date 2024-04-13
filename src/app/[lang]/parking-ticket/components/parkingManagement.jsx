@@ -15,11 +15,11 @@ export const ParkingManagement = () => {
         <div className='absolute left-0 z-[1] h-full p-16 max-sm:p-8'>
           <div className='flex h-full max-h-[355px] w-full max-w-[700px] flex-col text-white'>
             <span className='self-start rounded-full bg-white/10 p-4 max-sm:p-2 max-sm:text-[14px]'>
-              Parking management
+              Parkraummanagement
             </span>
             <h4 className='mt-6 text-7xl text-white max-md:text-5xl max-sm:text-[30px]'>
-              <span className='text-white/50'>Simplify your parking with</span>{' '}
-              automatic parking management.
+              Senken Sie Ihre Verwaltungskosten und behalten Sie den Überblick
+              über all Ihre Parkplätze.
             </h4>
           </div>
         </div>

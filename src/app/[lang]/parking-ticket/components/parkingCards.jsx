@@ -15,7 +15,7 @@ export const ParkingCards = () => {
         <div className='h-full w-full overflow-hidden '>
           <div className='absolute z-[2] flex flex-col p-10 text-white max-sm:p-6'>
             <span className='mb-5 self-start  rounded-full bg-black/10 p-4 text-dark max-sm:p-2 max-sm:text-[14px]'>
-              Parking ticket
+              Parkbusse
             </span>
           </div>
 
@@ -41,13 +41,13 @@ export const ParkingCards = () => {
         <div className='h-full w-full overflow-hidden'>
           <div className='absolute z-[2] flex flex-col p-10 text-white max-sm:p-6'>
             <span className='mb-5 self-start rounded-full bg-white/10 p-4 max-sm:p-2 max-sm:text-[14px]'>
-              Parking ticket
+              Parking Guard
             </span>
 
             <span className='text-[46px] max-xl:text-[30px] max-md:text-2xl'>
-              We patrol your business parking spaces{' '}
+              Auf Wunsch kontrollieren wir Ihre Firmenparkplätze mit{' '}
               <span className='text-white/50'>
-                with professional guards on your reguest.
+                professionellen Parkwächter.
               </span>
             </span>
           </div>

@@ -12,8 +12,8 @@ export const CancelOrder = () => {
       <div className='hidden h-[697px] w-full justify-end lg:flex'>
         <div className='z-[2] flex h-full items-center justify-center p-7 lg:w-[45%] xl:w-[55%]'>
           <span className='pl-10 leading-none text-dark lg:text-[58px] xl:pr-10 xl:text-[78px] '>
-            Easy delete <br />
-            <span className='text-dark/50'>any parking ticket over app.</span>
+            Einfaches Löschen <br />
+            <span className='text-dark/50'>von Parkbussen über die App.</span>
           </span>
         </div>
         <Image
@@ -25,8 +25,8 @@ export const CancelOrder = () => {
       </div>
       <div className='relative hidden h-[580px] w-full overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-lg:flex'>
         <div className='z-[2] w-full p-7 text-center text-[35px] leading-tight text-dark'>
-          Easy delete <br />
-          <span className='text-dark/50'>any parking ticket over app.</span>
+          Einfaches Löschen <br />
+          <span className='text-dark/50'>von Parkbussen über die App.</span>
         </div>
         <Image
           src={CancelOrderMob}

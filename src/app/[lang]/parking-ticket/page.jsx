@@ -21,8 +21,14 @@ const ParkingTicketPage = () => {
     <Container>
       <div className='mb-[172px] mt-[80px] max-md:mb-[100px]'>
         <DivideBanner
-          title='Execute parking ticket on your business parkings now.'
-          subtitle='On your business and private parkings you’re allowed to fine wrong parkers. Our app provides you with the infrastructure to execute parking fines with few clicks. Our app is fully automized and we take care of everything what happens after you create the fine'
+          title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und Privatnutzer.'
+          subtitle='Unsere FalschParker-Appandwendung bietet eine breite Palette
+          von Funktionen, die über die Ausstellung digitaler Umtriebsentschädigungen
+          hinausgehen und das Parkraummanagement optimal unterstützen. Dank unseres
+          entwickeltes Automatisierungsprozesses übernimmt unsere App die meisten
+          Aufgaben, angefangen von der Halterauskunft über das Rechnungswesen bis hin
+          zum Inkasso. So können Sie sich auf das Wesentliche konzentrieren und
+          Zeit sowie Ressourcen effizient nutzen'
           images={[BlankIcon, PortfolioIcon]}
         />
       </div>

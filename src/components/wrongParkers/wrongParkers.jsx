@@ -21,9 +21,10 @@ export const WrongParkers = () => {
               fill
             />
           </div>
-          <div className='self-center px-10'>
-            <span className='text-4xl max-xl:text-3xl max-md:text-2xl max-sm:text-xl'>
-              <span className='text-dark/50'>Wrong parkers on your</span> {text}
+          <div className='self-center px-5'>
+            <span className='text-2xl max-xl:text-xl max-md:text-xl max-sm:text-base xl:text-2xl'>
+              <span className='text-dark/50'>Falschparker auf Ihrem</span>{' '}
+              {text}
             </span>
           </div>
         </div>
@@ -40,8 +41,8 @@ export const WrongParkers = () => {
 
   return (
     <div className='grid grid-cols-2 gap-5 max-lg:grid-cols-1'>
-      {renderItem('business parking?', WrongBusinessParking)}
-      {renderItem('private parking?', WrongPrivateParking)}
+      {renderItem('Geschäftsparkplatz?', WrongBusinessParking)}
+      {renderItem('Privatparkplatz?', WrongPrivateParking)}
     </div>
   );
 };

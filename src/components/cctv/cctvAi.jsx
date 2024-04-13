@@ -25,7 +25,7 @@ export const CCTVAi = () => {
             />
           </div>
           <div className='flex h-full w-[50%] flex-col justify-center p-5 text-2xl text-white max-lg:w-full max-lg:text-2xl max-md:text-base lg:max-w-[650px] '>
-            <span className='pb-6 text-white/50 max-md:pb-3'>
+            <span className='pb-6 text-white/50 max-md:pb-3 max-sm:p-2'>
               Automated parking fines
             </span>
             <span className='max-md:text-base max-sm:p-2 max-sm:text-sm'>
