@@ -8,18 +8,19 @@ import { FaqSection } from '@/components/faq/faqSection';
 
 const data = [
   {
-    title: 'Need to fine wrong parkers?',
+    title: 'Falschparker büssen.',
     subtitle:
-      'Legally issue a parking fine on private property. For individuals and companies.',
+      'Verhängen Sie Umtreibsentschädigungen auf Privatparkplätze. Für Unternehmen und Privatpersonen.',
     image: 'noParking',
   },
   {
-    title: 'Need to tow wrong parkers?',
-    subtitle: 'Join the network now and get verified towing jobs over the app.',
+    title: 'Falschparker abschleppen.',
+    subtitle:
+      'Schleppen Sie Falschparker auf Privatgrund ab. Bestellen Sie einen Abschleppwagen aus unserem Abschlepp-Pool.',
     image: 'truck',
   },
   {
-    title: 'Have to report a fuel fraud',
+    title: 'Tankflucht melden.',
     subtitle: 'Our app requires only 2 minutes of processing time.',
     image: 'gasStation',
   },
