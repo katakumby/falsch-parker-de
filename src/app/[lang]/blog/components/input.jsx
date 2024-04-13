@@ -1,14 +1,14 @@
 import React from 'react';
 import { ArrowDotButton } from '@/components/buttons/arrowDotButton';
 
-const Input = ({ placeholder }) => {
+const Input = ({ placeholder, action }) => {
   return (
-    <form className='box-content flex h-[52px] max-w-[352px] overflow-hidden rounded-full border border-dark'>
+    <form className='box-content flex h-[52px] w-full max-w-[470px] overflow-hidden rounded-full border border-dark'>
       <input
-        className='h-full w-full bg-light px-6 text-base focus:outline-0'
+        className='h-full w-full flex-1 bg-light px-6 text-base placeholder-shown:truncate focus:outline-0'
         placeholder={placeholder}
       />
-      <ArrowDotButton theme='subscribe'>Subscribe</ArrowDotButton>
+      <ArrowDotButton theme='subscribe'>{action}</ArrowDotButton>
     </form>
   );
 };

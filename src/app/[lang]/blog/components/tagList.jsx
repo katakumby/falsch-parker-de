@@ -11,7 +11,7 @@ const TagList = ({ tags, activeTag }) => {
           key='all'
           active={!activeTag}
           href={activeTag ? buildBlogPagingHref(1) : ''}>
-          All
+          Alle
         </Chip>
         {tags.map((tag) => (
           <Chip
