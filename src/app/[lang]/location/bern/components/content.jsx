@@ -7,7 +7,7 @@ import { RoundButton } from '@/components/buttons/roundButton';
 import { ArrowRight } from '@/components/icons/arrowRight';
 import Play from '@/images/towing-service/play.svg';
 import Shield from '@/images/towing-service/shield.svg';
-import { OurServices } from '@/app/[lang]/location/Bern/components/ourServices';
+import { OurServices } from '@/app/[lang]/location/bern/components/ourServices';
 import Conclusion from '@/images/global/conclusion.png';
 import { ArrowLeft } from '@/components/icons/arrowLeft';
 import { Cross } from '@/components/icons/cross';
