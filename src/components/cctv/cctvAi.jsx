@@ -26,19 +26,18 @@ export const CCTVAi = () => {
           </div>
           <div className='flex h-full w-[50%] flex-col justify-center p-5 text-2xl text-white max-lg:w-full max-lg:text-2xl max-md:text-base lg:max-w-[650px] '>
             <span className='pb-6 text-white/50 max-md:pb-3 max-sm:p-2'>
-              Automated parking fines
+              Automatisierte Parkbussen (Umtriebsentschädigungen).
             </span>
             <span className='max-md:text-base max-sm:p-2 max-sm:text-sm'>
-              Beginning January 2024, we will introduce a groundbreaking feature
-              in our parking app: integrating closed-circuit television (CCTV)
-              with AI support. This upgrade allows for effortless monitoring of
-              parking spaces and visitors, removing the need for physical
-              inspections. <br />
-              Our advanced AI efficiently identifies authorized parking and
-              autonomously issues tickets for unauthorized vehicles after a
-              specified time. This innovative solution streamlines parking
-              surveillance, enhances efficiency, and ensures orderly parking
-              space usage without manual intervention.
+              Videokameras (CCTV) mit KI Technologie gekoppelt mit unserer App.
+              Dieses Upgrade ermöglicht eine mühelose Überwachung von
+              Parkplätzen und Besuchern, wodurch die Notwendigkeit physischer
+              Parkwächter entfällt. Unsere fortschrittliche KI identifiziert
+              effizient autorisierte Parkplätze und stellt nach einer von Ihnen
+              bestimmten Zeit autonom Parkbussen für nicht autorisierte
+              Fahrzeuge aus. Diese innovative Lösung rationalisiert die
+              Parküberwachung, verbessert die Effizienz und sorgt für eine
+              geordnete Nutzung von Parkplätzen ohne manuelles Eingreifen.
             </span>
           </div>
         </div>

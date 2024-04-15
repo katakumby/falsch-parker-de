@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import { TrustedBySection } from '@/app/[lang]/home/components/sections/trustedBySection';
 import { MainSection } from '@/app/[lang]/home/components/sections/mainSection';
@@ -10,6 +11,7 @@ import { FuelFraudSection } from '@/app/[lang]/home/components/sections/fuelFrau
 import { TestimonialsSection } from '@/app/[lang]/home/components/sections/testimonialsSection';
 import { OtherFeaturesSection } from '@/app/[lang]/home/components/sections/otherFeaturesSection';
 import { FaqSection } from '@/components/faq/faqSection';
+import { homePageData } from '@/components/faq/faqData';
 
 const Page = () => {
   return (
@@ -22,7 +24,7 @@ const Page = () => {
       <TowingSection />
       <FuelFraudSection />
       <OtherFeaturesSection />
-      <FaqSection />
+      <FaqSection data={homePageData} />
       <TestimonialsSection />
     </section>
   );

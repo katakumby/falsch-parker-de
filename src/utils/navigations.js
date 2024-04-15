@@ -1,11 +1,11 @@
 export const headerNavigation = [
-  { name: 'home', href: '' },
-  { name: 'app' },
-  { name: 'parkingTicket', href: '/parking-ticket' },
-  { name: 'towing', href: '/towing' },
-  { name: 'fuelFraud', href: '/fuel-fraud' },
-  { name: 'blog', href: '/blog' },
-  { name: 'contact', href: '/contact' },
+  { name: 'Home', href: '' },
+  { name: 'App' },
+  { name: 'Parkbusse', href: '/parking-ticket' },
+  { name: 'Abschleppdienst', href: '/towing' },
+  { name: 'Tankflucht', href: '/fuel-fraud' },
+  { name: 'Blog', href: '/blog' },
+  { name: 'Kontakt', href: '/contact' },
 ];
 
 export const footerNavigation = [];

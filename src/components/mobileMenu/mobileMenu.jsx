@@ -54,7 +54,7 @@ export const MobileMenu = ({ isMobileMenuOpen, onClose, lang }) => {
               </li>
             ))}
           </ul>
-          <PayFineButton text='Pay fine' width='303px' height='51px' />
+          <PayFineButton text='Jetzt bezahlen	' width='303px' height='51px' />
         </div>
       </div>
     </div>

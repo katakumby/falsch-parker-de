@@ -7,34 +7,9 @@ import { ArrowDotButton } from '@/components/buttons/arrowDotButton';
 import { FaqList } from './faqList';
 import { Modal } from '@/components/modal/modal';
 import { AskForm } from '@/components/faq/askForm';
+import { defaultData } from '@/components/faq/faqData';
 
-const faqList = [
-  {
-    title:
-      'Ist die Nutzung des Dienstes vollständig kostenlos, und entstehen den Benutzern zusätzliche Kosten?',
-    content:
-      'Ja, die Nutzung des Dienstes ist vollständig kostenlos, und es entstehen keinerlei zusätzliche Kosten für die Benutzer.',
-  },
-  {
-    title: 'Who is liable in case of disputes?',
-    content:
-      'We at Falsch-parker.ch take full responsibility and handle all administrative tasks.',
-  },
-  {
-    title:
-      'As a property owner or manager, do I need a judicial prohibition to have a vehicle towed?',
-    content:
-      'No, to have illegally parked vehicles towed, neither a judicial prohibition nor signage is required!',
-  },
-  {
-    title:
-      "Can I have a car towed if it's parked illegally on my private parking space?",
-    content:
-      'Yes, as long as you provide us with your lease agreement proving that you rent the parking space, and sign the necessary assignment (cession) allowing us to claim the incurred costs from the person who parked illegally.',
-  },
-];
-
-export const FaqSection = () => {
+export const FaqSection = ({ data = defaultData }) => {
   const [isOpenAskQuestion, setIsOpenAskQuestion] = useState(false);
 
   return (
@@ -60,7 +35,7 @@ export const FaqSection = () => {
         </h5>
 
         <div className='w-full'>
-          <FaqList faqList={faqList} />
+          <FaqList faqList={data} />
         </div>
 
         <div className='mt-10 hidden w-full justify-center max-sm:flex'>

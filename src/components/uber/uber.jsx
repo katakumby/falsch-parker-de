@@ -56,14 +56,17 @@ export const Uber = () => {
             <div className='right-0 z-[1] flex h-full flex-col justify-center text-2xl text-white max-lg:w-1/2 max-md:w-full max-md:text-lg lg:w-[60%]'>
               <div className='flex flex-col p-5 max-md:w-full lg:max-w-[700px]'>
                 <span className='py-5 text-white/50'>
-                  Easy to use app to fine wrong parkers.
+                  Eine benutzerfreundliche App, um gegen Falschparker
+                  vorzugehen.
                 </span>
                 <span>
-                  On your business and private parkings you’re allowed to fine
-                  wrong parkers. Our app provides you with the infrastructure to
-                  execute parking fines with few clicks. Our app is fully
-                  automized and we take care of everything what happens after
-                  you create the fine.
+                  Auf Ihren Geschäfts- und Privatparkplätzen dürfen Sie
+                  Falschparker mit Parkbussen (Umtriebsentschädigungen) belegen.
+                  Unsere App bietet Ihnen die Infrastruktur, um Parkbussgelder
+                  mit nur wenigen Klicks zu verhängen. Unsere App ist
+                  vollständig automatisiert, und wir kümmern uns um alles, was
+                  nach der Erstellung der Parkbusse & Abschleppauftrags
+                  passiert.
                 </span>
               </div>
             </div>

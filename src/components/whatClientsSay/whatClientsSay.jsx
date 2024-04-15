@@ -31,7 +31,7 @@ export const MobileCustomerReview = ({
 }) => {
   return (
     <div className='flex h-[485px] w-[325px] flex-none flex-col justify-between rounded-card bg-white p-8'>
-      <span className='text-[22px]'>{userComment}</span>
+      <span className='text-[22px] max-sm:text-[20px]'>{userComment}</span>
       <div className='mt-10 flex h-[50px] items-center text-dark'>
         <Image src={userImage} className='h-[44px] w-[44px]' alt='user' />
         <div className='flex flex-col justify-center pl-4'>

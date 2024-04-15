@@ -21,7 +21,8 @@ const data = [
   },
   {
     title: 'Tankflucht melden.',
-    subtitle: 'Our app requires only 2 minutes of processing time.',
+    subtitle:
+      'Über die App können Sie eine Tankflucht innerhalb von 1 Minute erfassen.',
     image: 'gasStation',
   },
 ];

@@ -14,6 +14,7 @@ import { ParkingCards } from '@/app/[lang]/parking-ticket/components/parkingCard
 import { CCTVAi } from '@/components/cctv/cctvAi';
 import { ReceivedParkingFine } from '@/app/[lang]/parking-ticket/components/ReceivedParkingFine';
 import { CancelOrder } from '@/app/[lang]/parking-ticket/components/cancelOrder';
+import { parkingTicketData } from '@/components/faq/faqData';
 
 const ParkingTicketPage = () => {
   const targetElement = 'parking-ticket-how-it-works';
@@ -57,7 +58,7 @@ const ParkingTicketPage = () => {
         <CancelOrder />
       </div>
 
-      <FaqSection />
+      <FaqSection data={parkingTicketData} />
 
       <div className='max-md:mb-[100px] md:mb-[80px]'>
         <ReceivedParkingFine />

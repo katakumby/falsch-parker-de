@@ -15,13 +15,13 @@ export const TheProblemSection = () => {
         <div className='absolute top-0 z-[1] flex h-full w-full flex-col items-center justify-center'>
           <div className='max-w-[650px] text-2xl text-white max-md:px-5 max-md:text-xl'>
             <div className='pb-6 text-white/50 '>
-              People are filling up their cars and not paying
+              Fahrzeughalter beziehen Treibstoff ohne zu bezahlen
             </div>
             <div>
-              The problem of people filling up their cars with fuel and not
-              paying has become a significant concern, causing financial losses
-              and administrative burdens for fuel stations and potential price
-              increases for honest customers.
+              Das Problem, dass Konsumenten ihre Autos mit Kraftstoff füllen und
+              nicht bezahlen, ist zu einem erheblichen Anliegen geworden. Dies
+              verursacht finanzielle Verluste und administrative Belastungen für
+              Tankstellen sowie mögliche Preiserhöhungen für ehrliche Kunden.
             </div>
           </div>
         </div>

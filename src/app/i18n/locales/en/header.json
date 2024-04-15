@@ -1,9 +1,9 @@
 {
   "home": "Home",
   "app": "App",
-  "parkingTicket": "Parking ticket",
-  "towing": "Towing",
-  "fuelFraud": "Fuel fraud",
+  "parkingTicket": "Parkbusse",
+  "towing": "Abschleppdienst",
+  "fuelFraud": "Tankflucht",
   "blog": "Blog",
-  "contact": "Contact"
+  "contact": "Kontakt"
 }

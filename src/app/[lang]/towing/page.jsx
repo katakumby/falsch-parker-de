@@ -16,6 +16,7 @@ import { LargeImageWithDesc } from '@/components/largeImageWithDesc/largeImageWi
 import MobileParkingCar from '@/images/home-page/mobil-parking-car.png';
 import { SeeHowItWorks } from '@/components/seeHowItWorks/seeHowItWorks';
 import { TowingPool } from '@/app/[lang]/towing/components/towingPool';
+import { towingData } from '@/components/faq/faqData';
 
 const TowingPage = () => {
   return (
@@ -80,7 +81,7 @@ const TowingPage = () => {
         </div>
       </section>
 
-      <FaqSection />
+      <FaqSection data={towingData} />
     </Container>
   );
 };

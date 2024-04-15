@@ -39,16 +39,16 @@ export const JoinSection = () => {
           <div
             className='flex w-full max-sm:justify-center sm:items-end sm:justify-end'
             onClick={goToContactUs}>
-            <ArrowDotButton theme='light'>Contact us</ArrowDotButton>
+            <ArrowDotButton theme='light'>Kontaktieren Sie uns</ArrowDotButton>
           </div>
         </div>
       </div>
 
       <div className='mt-[80px] flex h-[250px] w-full max-w-[450px] flex-col content-between items-center justify-between rounded-card bg-white p-[60px] text-center max-md:mt-4'>
         <span className='text-3xl text-dark max-sm:pb-6'>
-          I got a parking fine
+          Parkbusse erhalten
         </span>
-        <PayFineButton text='Pay fine' />
+        <PayFineButton text='Jetzt bezahlen	' />
       </div>
     </div>
   );

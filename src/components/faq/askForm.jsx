@@ -6,15 +6,15 @@ const AskForm = () => {
   return (
     <div className='grid gap-y-9'>
       <div>
-        <SectionTitle title='Ask question' />
+        <SectionTitle title='Stellen Sie ihre Frage' />
       </div>
       <form className='outline-none'>
         <div className='text-7xl leading-[1.1] max-lg:text-4xl'>
           Hello!
           <br />
-          My name is <Input placeholder='Enter your name here' />, here is my
-          email <Input placeholder='Enter your email here' type='email' />. I
-          want to ask <Input fill placeholder='Describe your question here' />
+          Mein Name ist <Input placeholder='Ihr name' />, das ist meine E-Mail{' '}
+          <Input placeholder='E-Mail eingeben' type='email' />. Ich habe
+          folgende Frage <Input fill placeholder='Stellen Sie Ihre Frage' />
         </div>
       </form>
     </div>

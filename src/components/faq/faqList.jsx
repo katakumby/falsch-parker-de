@@ -9,7 +9,7 @@ const Item = ({ item, isActive, onSetActive }) => {
       className={`cursor-pointer border-b border-dark/20 duration-500 ${isActive ? 'rounded-card bg-white' : 'bg-transparent'} pt-6`}
       onClick={onSetActive}>
       <div className='w-full pb-6 text-left focus:outline-none'>
-        <div className='flex items-center'>
+        <div className='flex items-center break-words'>
           <div className='relative flex items-center justify-center px-7'>
             <div className='absolute'>
               <Dash
@@ -33,7 +33,7 @@ const Item = ({ item, isActive, onSetActive }) => {
       </div>
       <div
         className={`transition-max-height overflow-hidden duration-500 ease-in-out ${isActive ? 'max-h-96' : 'max-h-0'}`}>
-        <div className='max-md:text-text-xl pb-6 text-dark/50 max-md:px-5 max-md:text-lg max-sm:text-base md:pl-[88px] md:text-xl'>
+        <div className='max-md:text-text-xl pb-6 pr-5 text-dark/50 max-md:px-5 max-md:text-lg max-sm:text-base md:pl-[88px] md:text-xl'>
           {item.content}
         </div>
       </div>

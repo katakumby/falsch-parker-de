@@ -13,6 +13,7 @@ import FullControlFraud from '@/images/full-fraud/fuel-fraud.png';
 import { SaveTimeAndMoney } from '@/components/saveTimeAndMoney/saveTimeAndMoney';
 import { HaveReport } from '@/app/[lang]/fuel-fraud/components/haveReport';
 import { SeeHowItWorks } from '@/components/seeHowItWorks/seeHowItWorks';
+import { gasStationData } from '@/components/faq/faqData';
 
 const FuelFraudPage = () => {
   return (
@@ -71,7 +72,7 @@ const FuelFraudPage = () => {
       </div>
 
       <SaveTimeAndMoney />
-      <FaqSection />
+      <FaqSection data={gasStationData} />
     </Container>
   );
 };

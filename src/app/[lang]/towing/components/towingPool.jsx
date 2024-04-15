@@ -42,14 +42,16 @@ const RenderTowingPool = () => {
 const RenderGreenGradient = () => {
   return (
     <div className='relative h-[730px] w-1/2 overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[350px] max-md:w-full '>
-      <div className='absolute z-[2] flex h-full flex-col content-between justify-between p-[50px] max-md:p-10'>
-        <div className='text-[80px] leading-tight text-white max-xl:text-[45px] max-md:text-[36px]'>
-          Are you a towing company?
+      <div className='absolute z-[2] flex h-full flex-col content-between justify-between p-[40px]'>
+        <div className='leading-tight text-white max-xl:text-[45px] max-lg:text-xl max-md:text-[36px] max-sm:text-xl lg:text-[30px] xl:text-[40px]'>
+          Sind sie ein Abschleppuntenehmen?
         </div>
 
         <div className='text-2xl text-white max-xl:text-[20px] max-md:text-base'>
-          Join the network <br /> now and get verified <br />
-          towing jobs over the app.
+          Schliessen sie sich <br />
+          jetzt unserem Netzwerk an und <br />
+          erhalten sie Abschleppaufträge <br />
+          über unsere App.
         </div>
       </div>
       <Image
