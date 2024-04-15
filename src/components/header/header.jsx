@@ -12,7 +12,7 @@ import { Container } from '@/components/container/container';
 import { PayFineButton } from '@/components/buttons/payFineButton';
 import MobileMenu from '@/components/mobileMenu/mobileMenu';
 import ArrowDown from '@/images/global/icons/arrowDown.svg';
-import { Phone } from '@/components/icons/Phone';
+import { Phone } from '@/components/icons/phone';
 
 const Header = ({ lang }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
