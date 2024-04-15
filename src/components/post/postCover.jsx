@@ -14,7 +14,7 @@ const PostCover = ({ imageUrl, tag, time, title, synopsis, href, scroll }) => {
         <div className='absolute bottom-0 flex w-full flex-col gap-5 rounded-t-[40px] bg-dark/50 p-10 backdrop-blur-xl max-lg:rounded-t-card max-lg:p-6'>
           <div className='flex items-center justify-between gap-4'>
             <Chip small>{tag}</Chip>
-            <span className='text-base max-lg:text-xs'>{time} min read</span>
+            <span className='text-base max-lg:text-xs'>{time} min lesen</span>
           </div>
           <span className='text-4xl leading-tight max-lg:text-2xl'>
             {title}

@@ -63,6 +63,9 @@ const Paging = ({ page, lastPage, tag }) => {
     [page]
   );
 
+  const isPevDisabled = +page === 1;
+  const isNextDisabled = +page === lastPage || lastPage === 0;
+
   return (
     <section className='flex justify-center'>
       <div className='flex items-center justify-between gap-6'>
@@ -70,7 +73,7 @@ const Paging = ({ page, lastPage, tag }) => {
           href={buildBlogPagingHref(+page - 1, tag)}
           icon={ArrowLeft}
           direction='left'
-          disabled={+page === 1}
+          disabled={isPevDisabled}
         />
         <div className='flex items-center gap-2'>
           {generatePages().map((el) => renderPageNumber(el))}
@@ -79,7 +82,7 @@ const Paging = ({ page, lastPage, tag }) => {
           href={buildBlogPagingHref(+page + 1, tag)}
           icon={ArrowRight}
           direction='right'
-          disabled={+page === lastPage}
+          disabled={isNextDisabled}
         />
       </div>
     </section>
