@@ -32,10 +32,10 @@ export const footerLinks = [
     title: 'Standorte',
     links: [
       { title: 'Abschleppdienst Zürich', href: '/location/zurich' },
-      { title: 'Abschleppdienst Luzern', href: '/location/bern' },
-      { title: 'Abschleppdienst Zug', href: '/location/geneva' },
-      { title: 'Abschleppdienst St. Gallen', href: '/location/basel' },
-      { title: 'Abschleppdienst ', href: '/location/lausanne' },
+      { title: 'Abschleppdienst Bern', href: '/location/bern' },
+      { title: 'Abschleppdienst Winterthur', href: '/location/winterthur' },
+      { title: 'Abschleppdienst Luzern', href: '/location/luzern' },
+      { title: 'Abschleppdienst St. Gallen', href: '/location/st-gallen' },
     ],
   },
   {

@@ -12,15 +12,8 @@ const Page = () => {
       <div className='my-20 grid gap-y-40 max-md:my-10 max-md:gap-y-20'>
         <Heading
           icons={[Refill, Clipboard, Coin]}
-          title='Towing service Bern.'
-          subtitle='Parking illegally on private property
-          is a criminal offense and can have both criminal
-          and civil consequences. As a towing company in
-          Bern, we specialize in removing illegal parking on
-          private property, issuing inconvenience compensation
-          and allowing our customers legal access to their
-          parking spaces. Our towing services in Bern are
-          fast, reliable, professional and available to you 24/7.'
+          title='Abschleppdienst Bern.'
+          subtitle='Das unerlaubte Parken auf Privatgrundstücken ist nicht nur ärgerlich, sondern kann auch rechtliche Konsequenzen nach sich ziehen. Als zuverlässiges Abschleppunternehmen in Bern sind wir darauf spezialisiert, Falschparker auf Privatgrundstücken zu entfernen, um unseren Kunden den rechtmäßigen Zugang zu ihren Parkplätzen zu gewährleisten. Unser Team steht Ihnen rund um die Uhr zur Verfügung und bietet schnelle und professionelle Abschleppdienste.'
         />
         <Content />
       </div>

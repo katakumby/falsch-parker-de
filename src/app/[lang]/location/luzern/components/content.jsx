@@ -7,7 +7,7 @@ import { RoundButton } from '@/components/buttons/roundButton';
 import { ArrowRight } from '@/components/icons/arrowRight';
 import Play from '@/images/towing-service/play.svg';
 import Shield from '@/images/towing-service/shield.svg';
-import { OurServices } from '@/app/[lang]/location/Basel/components/ourServices';
+import { OurServices } from '@/app/[lang]/location/zurich/components/ourServices';
 import Conclusion from '@/images/global/conclusion.png';
 import { ArrowLeft } from '@/components/icons/arrowLeft';
 import { Cross } from '@/components/icons/cross';
@@ -48,15 +48,18 @@ const Content = () => {
               <Image src={Play} alt='Play' fill />
             </div>
             <div className='text-xl max-2xl:text-xl max-xl:text-lg max-lg:text-2xl max-md:text-xl max-sm:text-lg max-[550px]:text-base max-[420px]:text-sm'>
-              <h6 className='mb-6 text-dark/50'>Our approach</h6>
+              <h6 className='mb-6 text-dark/50'>Unser Vorgehen</h6>
               <p>
-                Our towing service in Basel is fast and efficient. As soon as we
-                are notified by a customer via the APP that there is a parking
-                problem, we immediately move out to remove the vehicle. We work
-                closely with local authorities to ensure we comply with all
-                necessary permits and requirements. Our towing specialists are
-                trained to assess the proportionality of towing and to ensure
-                that all legal bases are adhered to.
+                Unser Abschleppdienst in Luzern ist schnell und effizient.
+                Sobald wir von einem Kunden über die APP benachrichtigt werden,
+                dass ein Parkproblem vorliegt, rücken wir sofort aus, um das
+                Fahrzeug zu entfernen. Wir arbeiten eng mit den örtlichen
+                Behörden zusammen, um sicherzustellen, dass wir alle
+                erforderlichen Genehmigungen und Anforderungen einhalten. Unsere
+                Abschleppspezialisten sind darin geschult, die
+                Verhältnismäßigkeit des Abschleppens zu beurteilen und
+                sicherzustellen, dass alle gesetzlichen Grundlagen eingehalten
+                werden.
               </p>
             </div>
           </div>
@@ -64,16 +67,16 @@ const Content = () => {
         <div className='relative h-card flex-1 max-lg:col-span-2 max-md:h-cardMobile'>
           <div className='flex h-full flex-col justify-between overflow-hidden rounded-[40px] bg-white bg-greenGradient p-12 !pb-0 max-lg:rounded-card max-md:p-6'>
             <div className='text-xl text-white max-2xl:text-xl max-xl:text-lg max-lg:text-2xl max-md:text-xl max-sm:text-lg max-[550px]:text-base max-[420px]:text-sm'>
-              <h6 className='mb-6 opacity-50'>Our service promise</h6>
+              <h6 className='mb-6 opacity-50'>Unsere Servicegarantie</h6>
               <p>
-                As a towing company in Basel, we pride ourselves on providing
-                our customers with a fast, reliable and professional service. We
-                understand how frustrating it can be when someone parking
-                illegally parks in your private parking space and you do not
-                have access to your own parking space. That's why we work hard
-                to ensure that our customers always have access to their parking
-                spaces and that any illegal parking is removed quickly and
-                safely.
+                Als Abschleppunternehmen in Luzern sind wir stolz darauf,
+                unseren Kunden einen schnellen, zuverlässigen und
+                professionellen Service zu bieten. Wir verstehen, wie
+                frustrierend es sein kann, wenn jemand illegal auf Ihrem
+                Privatparkplatz parkt und Sie keinen Zugang zu Ihrem eigenen
+                Parkplatz haben. Deshalb arbeiten wir hart daran, dass unsere
+                Kunden stets Zugang zu ihren Parkplätzen haben und etwaige
+                Falschparker schnell und sicher beseitigt werden.
               </p>
             </div>
             <div className='relative my-auto flex h-[172px] w-[154px] shrink-0 self-center'>
@@ -100,17 +103,19 @@ const Content = () => {
                 />
               </div>
               <div className='grid flex-1 gap-y-10 self-center p-12 !pl-0 max-lg:hidden max-md:p-6'>
-                <h1 className='text-7xl'>Conclusion.</h1>
+                <h1 className='text-7xl'>Fazit.</h1>
                 <p>
-                  If you have problems with illegal parking on your private
-                  property in Basel, do not hesitate to use the Fehl-Parker.ch
-                  APP. We offer a fast, reliable and professional towing service
-                  for illegal parking on private property to ensure you always
-                  have access to your parking space. Our towing specialists are
-                  trained to assess the proportionality of towing and to ensure
-                  that all legal bases are adhered to. Contact us today to find
-                  out more about our services or start directly with the APP via
-                  app.falsch-parker.ch
+                  Wenn Sie Probleme mit illegalem Parken auf Ihrem
+                  Privatgrundstück in Luzern haben, nutzen Sie gerne die
+                  FalschParker APP. Wir bieten einen schnellen, zuverlässigen
+                  und professionellen Abschleppdienst für illegales Parken auf
+                  Privatgrundstücken, damit Sie jederzeit Zugang zu Ihrem
+                  Parkplatz haben. Unsere Abschleppspezialisten sind darin
+                  geschult, die Verhältnismäßigkeit des Abschleppens zu
+                  beurteilen und sicherzustellen, dass alle gesetzlichen
+                  Grundlagen eingehalten werden. Kontaktieren Sie uns noch
+                  heute, um mehr über unsere Leistungen zu erfahren oder starten
+                  Sie direkt mit der APP über app.falsch-parker.ch.
                 </p>
               </div>
             </div>
@@ -118,7 +123,7 @@ const Content = () => {
               {!isConclusionText ? (
                 <>
                   <div className='flex items-center p-12 pb-0 pt-14'>
-                    <h3 className='-mb-10 text-4xl sm:text-6xl'>Conclusion.</h3>
+                    <h3 className='-mb-10 text-4xl sm:text-6xl'>Fazit.</h3>
                   </div>
                   <div className='relative mx-auto mt-0 h-full w-[300px] shrink-0'>
                     <Image
@@ -130,18 +135,20 @@ const Content = () => {
                   </div>
                 </>
               ) : (
-                <div className='flex h-full flex-col justify-center gap-10 p-12'>
-                  <h3 className='text-4xl sm:text-6xl'>Conclusion.</h3>
+                <div className='flex h-full flex-col justify-center gap-10 p-12  max-sm:p-4 sm:gap-3'>
+                  <h3 className='text-4xl sm:text-4xl'>Fazit.</h3>
                   <p>
-                    If you have problems with illegal parking on your private
-                    property in Basel, do not hesitate to use the Fehl-Parker.ch
-                    APP. We offer a fast, reliable and professional towing
-                    service for illegal parking on private property to ensure
-                    you always have access to your parking space. Our towing
-                    specialists are trained to assess the proportionality of
-                    towing and to ensure that all legal bases are adhered to.
-                    Contact us today to find out more about our services or
-                    start directly with the APP via app.falsch-parker.ch
+                    Wenn Sie Probleme mit illegalem Parken auf Ihrem
+                    Privatgrundstück in Luzern haben, nutzen Sie gerne die
+                    FalschParker APP. Wir bieten einen schnellen, zuverlässigen
+                    und professionellen Abschleppdienst für illegales Parken auf
+                    Privatgrundstücken, damit Sie jederzeit Zugang zu Ihrem
+                    Parkplatz haben. Unsere Abschleppspezialisten sind darin
+                    geschult, die Verhältnismäßigkeit des Abschleppens zu
+                    beurteilen und sicherzustellen, dass alle gesetzlichen
+                    Grundlagen eingehalten werden. Kontaktieren Sie uns noch
+                    heute, um mehr über unsere Leistungen zu erfahren oder
+                    starten Sie direkt mit der APP über app.falsch-parker.ch.
                   </p>
                 </div>
               )}

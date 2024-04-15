@@ -12,15 +12,8 @@ const Page = () => {
       <div className='my-20 grid gap-y-40 max-md:my-10 max-md:gap-y-20'>
         <Heading
           icons={[Refill, Clipboard, Coin]}
-          title='Towing service Zurich.'
-          subtitle='Parking illegally on private property
-          is a criminal offense and can have both criminal
-          and civil consequences. As a towing company in
-          Zurich, we specialize in removing illegal parking on
-          private property, issuing inconvenience compensation
-          and allowing our customers legal access to their
-          parking spaces. Our towing services in Zurich are
-          fast, reliable, professional and available to you 24/7.'
+          title='Abschleppdienst Zürich.'
+          subtitle='Unerlaubtes Parken auf Privatgrundstücken stellt eine Straftat dar und kann sowohl strafrechtliche als auch zivilrechtliche Folgen haben. Als Abschleppunternehmen in Zürich sind wir darauf spezialisiert, Falschparker auf Privatgrundstücken zu beseitigen, Unannehmlichkeitsentschädigungen auszusprechen und unseren Kunden den legalen Zugang zu ihren Parkplätzen zu ermöglichen. Unsere Abschleppdienste in Zürich sind schnell, zuverlässig, professionell und rund um die Uhr für Sie da.'
         />
         <Content />
       </div>
