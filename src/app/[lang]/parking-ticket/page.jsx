@@ -12,7 +12,7 @@ import { Claim } from '@/components/claim/claim';
 import { ParkingManagement } from '@/app/[lang]/parking-ticket/components/parkingManagement';
 import { ParkingCards } from '@/app/[lang]/parking-ticket/components/parkingCards';
 import { CCTVAi } from '@/components/cctv/cctvAi';
-import { ReceivedParkingFine } from '@/app/[lang]/parking-ticket/components/ReceivedParkingFine';
+import { ReceivedParkingFine } from '@/app/[lang]/parking-ticket/components/receivedParkingFine';
 import { CancelOrder } from '@/app/[lang]/parking-ticket/components/cancelOrder';
 import { parkingTicketData } from '@/components/faq/faqData';
 
