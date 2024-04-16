@@ -8,7 +8,7 @@ const Heading = () => {
         Neueste Nachrichten und Artikel
       </div>
       <div className='h-1 border-b border-dark'></div>
-      <div className='flex justify-between max-lg:contents max-lg:flex-col-reverse'>
+      <div className='flex justify-between gap-10 max-lg:contents max-lg:flex-col-reverse'>
         <Input
           action='Abonnieren'
           placeholder='Geben sie ihre E-Mail Adresse ein'
