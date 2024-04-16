@@ -21,7 +21,7 @@ export const metadata = buildMetadata('fuelFraud');
 const FuelFraudPage = () => {
   return (
     <Container>
-      <div className='mb-[170px] mt-[100px] max-md:mb-[100px]'>
+      <div className='mb-[170px] mt-[100px] max-md:mb-[60px]'>
         <DivideBanner
           title='Report fuel fraud on your gas station.'
           subtitle='Submit fuel fraud reports for your gas station and secure refunds effortlessly with our automated processing system.'

@@ -23,7 +23,7 @@ const ParkingTicketPage = () => {
   const targetElement = 'parking-ticket-how-it-works';
   return (
     <Container>
-      <div className='mb-[172px] mt-[80px] max-md:mb-[100px]'>
+      <div className='mb-[172px] mt-[80px] max-md:mb-[60px]'>
         <DivideBanner
           title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und Privatnutzer.'
           subtitle='Unsere FalschParker-Appandwendung bietet eine breite Palette

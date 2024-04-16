@@ -12,7 +12,7 @@ import { SaveTimeAndMoney } from '@/components/saveTimeAndMoney/saveTimeAndMoney
 export const FuelFraudSection = () => {
   return (
     <Container>
-      <Element name='fuel-fraud' className='my-[170px] max-md:my-[100px]'>
+      <Element name='fuel-fraud' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Tankflucht']}
           title='Den Verwaltungsaufwand für Fälle von Tankflucht auf 2 Minuten minimieren.'

@@ -43,8 +43,10 @@ const RenderTextBlock = (isOnlyApp) => {
   return (
     <div className='flex h-[760px] w-1/2 items-center justify-center max-md:h-[580px] max-md:w-full'>
       <div className='w-full px-5 md:max-w-[530px]'>
-        {data.map((el) => (
-          <div className='flex justify-between border-b border-dark/10 py-5 text-2xl last:border-0 max-md:text-xl'>
+        {data.map((el, index) => (
+          <div
+            key={index}
+            className='flex justify-between border-b border-dark/10 py-5 text-2xl last:border-0 max-md:text-xl'>
             <span className='text-dark'>{el.text}</span>
             <span className='ml-5 text-dark/50'>{el.number}</span>
           </div>

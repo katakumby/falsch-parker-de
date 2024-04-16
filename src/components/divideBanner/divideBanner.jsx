@@ -24,7 +24,7 @@ export const DivideBanner = ({
         {title}
       </div>
       <div className='flex pt-14 max-md:pt-8'>
-        <div className='flex w-1/2 items-start'>
+        <div className='flex w-1/2 items-start max-md:w-[35%]'>
           {images?.length &&
             images.map((src, index) => {
               if (index === 0) {
@@ -49,7 +49,7 @@ export const DivideBanner = ({
               }
             })}
         </div>
-        <div className='flex w-1/2 justify-end'>
+        <div className='flex w-1/2 justify-end max-md:w-[65%]'>
           <span
             className={cl(
               'text-3xl text-[#0D0F11] max-md:text-sm',
