@@ -14,6 +14,9 @@ import { SaveTimeAndMoney } from '@/components/saveTimeAndMoney/saveTimeAndMoney
 import { HaveReport } from '@/app/[lang]/fuel-fraud/components/haveReport';
 import { SeeHowItWorks } from '@/components/seeHowItWorks/seeHowItWorks';
 import { gasStationData } from '@/components/faq/faqData';
+import { buildMetadata } from '@/utils/metadata';
+
+export const metadata = buildMetadata('fuelFraud');
 
 const FuelFraudPage = () => {
   return (

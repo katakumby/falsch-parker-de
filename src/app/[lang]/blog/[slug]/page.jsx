@@ -4,6 +4,7 @@ import {
   buildGetAllSlugs,
   buildGetNextPostSlug,
   buildGetPostDetails,
+  buildGetPostMetadata,
 } from '@/utils/queries';
 import { Container } from '@/components/container/container';
 import { Heading } from '@/app/[lang]/blog/[slug]/heading';
@@ -15,6 +16,19 @@ import { ArrowDotButton } from '@/components/buttons/arrowDotButton';
 export const generateStaticParams = async () => {
   const slugObjs = await client.fetch(buildGetAllSlugs());
   return slugObjs.map((slugObj) => ({ slug: slugObj.current }));
+};
+
+export const generateMetadata = async ({ params: { slug } }) => {
+  const metadata = await client.fetch(buildGetPostMetadata(slug));
+
+  return {
+    title: `${metadata.title} | Falsch-Parker Blog`,
+    description: metadata.synopsis,
+    openGraph: {
+      title: `${metadata.title} | Falsch-Parker Blog`,
+      description: metadata.synopsis,
+    },
+  };
 };
 
 const Page = async ({ params: { slug, lang } }) => {

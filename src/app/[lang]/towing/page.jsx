@@ -17,6 +17,9 @@ import MobileParkingCar from '@/images/home-page/mobil-parking-car.png';
 import { SeeHowItWorks } from '@/components/seeHowItWorks/seeHowItWorks';
 import { TowingPool } from '@/app/[lang]/towing/components/towingPool';
 import { towingData } from '@/components/faq/faqData';
+import { buildMetadata } from '@/utils/metadata';
+
+export const metadata = buildMetadata('towing');
 
 const TowingPage = () => {
   return (

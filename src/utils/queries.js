@@ -26,10 +26,15 @@ const buildGetNextPostSlug = (slug) => {
   | order(${orderBy} asc)[0].slug.current`;
 };
 
+const buildGetPostMetadata = (slug) => {
+  return `*[_type == "post" && slug.current == "${slug}"]{title, synopsis}[0]`;
+};
+
 export {
   buildGetPostsQuery,
   buildGetTagsQuery,
   buildGetAllSlugs,
   buildGetPostDetails,
   buildGetNextPostSlug,
+  buildGetPostMetadata,
 };

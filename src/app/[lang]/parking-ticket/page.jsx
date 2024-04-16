@@ -15,6 +15,9 @@ import { CCTVAi } from '@/components/cctv/cctvAi';
 import { ReceivedParkingFine } from '@/app/[lang]/parking-ticket/components/receivedParkingFine';
 import { CancelOrder } from '@/app/[lang]/parking-ticket/components/cancelOrder';
 import { parkingTicketData } from '@/components/faq/faqData';
+import { buildMetadata } from '@/utils/metadata';
+
+export const metadata = buildMetadata('parkingTicket');
 
 const ParkingTicketPage = () => {
   const targetElement = 'parking-ticket-how-it-works';
