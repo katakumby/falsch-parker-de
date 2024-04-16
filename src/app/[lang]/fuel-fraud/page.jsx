@@ -23,8 +23,8 @@ const FuelFraudPage = () => {
     <Container>
       <div className='mb-[170px] mt-[100px] max-md:mb-[60px]'>
         <DivideBanner
-          title='Report fuel fraud on your gas station.'
-          subtitle='Submit fuel fraud reports for your gas station and secure refunds effortlessly with our automated processing system.'
+          title='Tankflucht - geeignet für Tankstellen mit einem Shop.'
+          subtitle='Melden Sie mühelos und ohne technische Kenntnisse Tankfluchtverstösse in unsere Web-App und müssen sich nicht länger mit der Eintreibung ausstehender Tankbeträge und lästiger Telefonate herumschlagen.'
           images={[RefillIcon, BlankIcon, CoinIcon]}
         />
       </div>
@@ -67,10 +67,7 @@ const FuelFraudPage = () => {
         <FullControl
           smallCover={FullControlFraudMobile}
           cover={FullControlFraud}
-          subtitle='In the dashboard, you can view payment
-        statuses and have the option to delete any report
-        if a previously unpaid customer returns and pays on the spot.
-        Additionally, you can print out any report as needed.'
+          subtitle='Im Dashboard können Sie den Zahlungsstatus einsehen und haben die Möglichkeit, jeden Bericht zu löschen, wenn ein zuvor unbezahlter Kunde zurückkommt und vor Ort bezahlt. Darüber hinaus können Sie jeden Bericht bei Bedarf ausdrucken.'
         />
       </div>
 
