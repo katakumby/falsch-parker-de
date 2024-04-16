@@ -14,7 +14,7 @@ export const DivideBanner = ({
   return (
     <>
       {sectionTitles?.length && (
-        <div className='flex gap-2 pb-3 max-sm:flex-col'>
+        <div className='flex flex-wrap gap-2 pb-3'>
           {sectionTitles.map((title, index) => (
             <SectionTitle title={title} key={index} />
           ))}
