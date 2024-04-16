@@ -25,7 +25,7 @@ const TowingPage = () => {
   return (
     <Container>
       <section>
-        <div className='mt-20 max-md:mt-[100]'>
+        <div className='mt-20 max-md:mt-[60]'>
           <DivideBanner
             title='Jetzt auf Firmen- und Privatparkplätze abschleppen.'
             subtitle='Sie haben das Recht, Falschparker auf Ihrem Parkplatz abschleppen zu lassen.'

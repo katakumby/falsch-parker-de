@@ -20,7 +20,7 @@ export const TowingSection = () => {
 
   return (
     <Container>
-      <Element name='towing' className='my-[170px] max-md:my-[100px]'>
+      <Element name='towing' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Abschleppdienst']}
           title='Jetzt auf Firmen- und Privatparkplätzen abschleppen.'

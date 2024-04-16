@@ -11,7 +11,7 @@ export const OtherFeaturesSection = () => {
   return (
     <Container>
       <div>
-        <div className='my-[172px] max-md:mb-[40px] max-md:mt-[100px]'>
+        <div className='my-[172px] max-md:mb-[40px] max-md:mt-[60px]'>
           <DivideBanner
             sectionTitles={[
               'Videoüberwachung & KI',

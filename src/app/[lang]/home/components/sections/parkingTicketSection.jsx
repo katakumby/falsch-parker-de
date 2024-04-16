@@ -12,7 +12,7 @@ export const ParkingTicketSection = () => {
   const targetElement = 'howItWorks';
   return (
     <Container>
-      <Element name='parking-ticket' className='my-[170px] max-md:my-[100px]'>
+      <Element name='parking-ticket' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Umtriebsentschädigung']}
           title='Falschparker mit digitaler Parkbusse auf Privatparkplätzen büssen.'
