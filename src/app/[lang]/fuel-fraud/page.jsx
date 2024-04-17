@@ -39,25 +39,27 @@ const FuelFraudPage = () => {
         desktopClassesImg='ml-[16%] mt-[10%] object-contain max-md:ml-[18%] max-md:mt-[5%]'
         descDesktop={
           <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-            <span className='pb-9 text-7xl'>
-              Reduce <br /> fuel theft.
+            <span className='pb-9 text-4xl'>
+              Reduzieren <br /> Sie Kraftstoffdiebstahl.
             </span>
             <span className='text-xl'>
-              To ensure legal certainty, take a clear photo of the illegally
-              parked vehicle with its license plate visible. Remember, a court
-              prohibition notice is required for compensation claims.
+              Im Zuge der Rechtssicherheit im Falle zu gewährleisten, machen Sie
+              bitte ein gut sichtbares Foto des Fahrzeugs, von dem der
+              Kraftstoffdiebstahl begangen wurde, einschliesslich des sichtbaren
+              Kennzeichens. Ergänzend dazu laden Sie Foto der Quittung hoch.
             </span>
           </div>
         }
         descMobile={
           <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-            <span className='pb-9 text-7xl max-md:text-4xl'>
-              Reduce fuel theft.
+            <span className='pb-9 text-7xl max-md:text-3xl'>
+              Reduzieren Sie Kraftstoffdiebstahl.
             </span>
             <span className='text-xl'>
-              To ensure legal certainty, take a clear photo of the illegally
-              parked vehicle with its license plate visible. Remember, a court
-              prohibition notice is required for compensation claims.
+              Im Zuge der Rechtssicherheit im Falle zu gewährleisten, machen Sie
+              bitte ein gut sichtbares Foto des Fahrzeugs, von dem der
+              Kraftstoffdiebstahl begangen wurde, einschliesslich des sichtbaren
+              Kennzeichens. Ergänzend dazu laden Sie Foto der Quittung hoch.
             </span>
           </div>
         }
