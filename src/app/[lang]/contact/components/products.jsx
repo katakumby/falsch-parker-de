@@ -32,6 +32,7 @@ const Products = () => {
         <div className='flex w-fit gap-5'>
           {data.map((item, index) => (
             <ProductCard
+              titleComponent={`h${index + 1}`}
               key={index}
               title={item.title}
               subtitle={item.subtitle}
