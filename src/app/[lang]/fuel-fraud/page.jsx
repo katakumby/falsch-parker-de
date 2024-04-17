@@ -23,6 +23,7 @@ const FuelFraudPage = () => {
     <Container>
       <div className='mb-[170px] mt-[100px] max-md:mb-[60px]'>
         <DivideBanner
+          titleComponent='h1'
           title='Tankflucht - geeignet für Tankstellen mit einem Shop.'
           subtitle='Melden Sie mühelos und ohne technische Kenntnisse Tankfluchtverstösse in unsere Web-App und müssen sich nicht länger mit der Eintreibung ausstehender Tankbeträge und lästiger Telefonate herumschlagen.'
           images={[RefillIcon, BlankIcon, CoinIcon]}

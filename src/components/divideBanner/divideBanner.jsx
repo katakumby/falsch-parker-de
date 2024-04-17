@@ -10,7 +10,9 @@ export const DivideBanner = ({
   subtitle,
   images,
   subtitleClassName = '',
+  titleComponent = 'h1',
 }) => {
+  const Title = titleComponent;
   return (
     <>
       {sectionTitles?.length && (
@@ -20,9 +22,9 @@ export const DivideBanner = ({
           ))}
         </div>
       )}
-      <div className='border-b border-black pb-14 text-6xl max-md:pb-8 max-md:text-2xl'>
+      <Title className='flex border-b border-black pb-14 text-6xl max-md:pb-8 max-md:text-2xl'>
         {title}
-      </div>
+      </Title>
       <div className='flex pt-14 max-md:pt-8'>
         <div className='flex w-1/2 items-start max-md:w-[35%]'>
           {images?.length &&

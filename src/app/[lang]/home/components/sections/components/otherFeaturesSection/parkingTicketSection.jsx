@@ -45,7 +45,7 @@ export const ParkingTicketSection = () => {
       </div>
       <div className='relative h-[730px] w-1/2 overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-lg:h-[440px] max-sm:w-full'>
         <div className='absolute z-[2] p-20 text-7xl text-dark max-lg:p-10 max-lg:text-4xl'>
-          <span>QR-Code Parkbusse.</span>
+          <h5>QR-Code Parkbusse.</h5>
         </div>
         <Image
           src={ParkingTicket}

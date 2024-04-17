@@ -16,9 +16,9 @@ const RenderTowingPool = () => {
   return (
     <div className='relative h-[730px] w-1/2 overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[350px] max-md:w-full '>
       <div className='absolute z-[2] p-10'>
-        <span className='text-4xl !leading-tight text-white max-xl:text-3xl max-lg:text-3xl max-[1000px]:text-2xl max-[870px]:text-xl max-md:text-4xl max-sm:text-3xl max-[480px]:text-2xl max-[410px]:text-xl'>
+        <h5 className='text-4xl !leading-tight text-white max-xl:text-3xl max-lg:text-3xl max-[1000px]:text-2xl max-[870px]:text-xl max-md:text-4xl max-sm:text-3xl max-[480px]:text-2xl max-[410px]:text-xl'>
           Grösste Abschleppdienstleister-Pool.
-        </span>
+        </h5>
       </div>
       <Image
         src={TowingPoolImage}

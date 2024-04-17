@@ -15,24 +15,24 @@ const SmallCards = () => {
         type='businessParking'
         onClick={openApp}
         text={
-          <div className=''>
+          <h4 className=''>
             Falschparker auf Ihrem <br />
             <span className='rounded-md bg-light px-2 leading-10 text-black'>
               Geschäftsparkplatz?
             </span>
-          </div>
+          </h4>
         }
       />
       <ParkingCard
         type='privateParking'
         onClick={openApp}
         text={
-          <div>
+          <h4>
             Falschparker auf Ihrem <br />
             <span className='rounded-md bg-black px-2 leading-10 text-white'>
               Privatparkplatz?
             </span>
-          </div>
+          </h4>
         }
       />
       <ParkingCardApp

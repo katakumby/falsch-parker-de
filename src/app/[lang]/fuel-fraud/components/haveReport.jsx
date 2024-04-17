@@ -17,11 +17,11 @@ export const HaveReport = () => {
   return (
     <div className='relative h-[700px] w-full overflow-hidden rounded-bl-card rounded-tl-card  rounded-tr-card max-md:h-[580px]'>
       <div className='absolute left-0 z-[1] flex h-full flex-col p-20 max-md:p-10 max-sm:justify-between'>
-        <div className='mb-16 w-2/3 text-[90px] leading-[1.2] text-red-600 max-lg:text-[45px] max-md:w-full max-sm:mb-8 max-sm:text-[30px]'>
+        <h3 className='mb-16 w-2/3 text-[90px] leading-[1.2] text-red-600 max-lg:text-[45px] max-md:w-full max-sm:mb-8 max-sm:text-[30px]'>
           <span className='text-white/50'>Müssen Sie </span>
           <br />
-          <span className='text-white'>ein Tankfluchtvorfall melden??</span>
-        </div>
+          <span className='text-white'>ein Tankfluchtvorfall melden?</span>
+        </h3>
         <OpenAppButton onClick={openApp} />
       </div>
       <Image
