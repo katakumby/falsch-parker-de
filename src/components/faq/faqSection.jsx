@@ -28,11 +28,11 @@ export const FaqSection = ({ data = defaultData }) => {
           </div>
         </div>
 
-        <h5 className='mb-20 max-md:text-3xl md:text-8xl lg:text-9xl'>
+        <h4 className='mb-20 max-md:text-3xl md:text-8xl lg:text-9xl'>
           Sie fragen,
           <br />
           wir antworten.
-        </h5>
+        </h4>
 
         <div className='w-full'>
           <FaqList faqList={data} />

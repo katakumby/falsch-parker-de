@@ -4,9 +4,9 @@ import { Input } from './components';
 const Heading = () => {
   return (
     <section className='my-20 flex flex-col gap-10 max-lg:my-10 max-lg:gap-8'>
-      <div className='text-8xl leading-none max-lg:text-4xl'>
+      <h1 className='text-8xl leading-none max-lg:text-4xl'>
         Neueste Nachrichten und Artikel
-      </div>
+      </h1>
       <div className='h-1 border-b border-dark'></div>
       <div className='flex justify-between gap-10 max-lg:contents max-lg:flex-col-reverse'>
         <Input
