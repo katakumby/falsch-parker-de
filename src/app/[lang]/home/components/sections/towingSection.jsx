@@ -23,7 +23,8 @@ export const TowingSection = () => {
       <Element name='towing' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Abschleppdienst']}
-          title='Jetzt auf Firmen- und Privatparkplätzen abschleppen.'
+          titleComponent='h3'
+          title='Jetzt auf Firmen - und Privatparkplätzen abschleppen.'
           subtitle='Unser Abschleppdienstleister-Netzwerk besteht aus
           verschiedenen Unternehmen in Ihrer Umgebung. Durch die automatische
           Erfassung der nahegelegenen Abschleppfahrer mittels GPS-Signal wird

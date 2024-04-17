@@ -15,7 +15,9 @@ export const FuelFraudSection = () => {
       <Element name='fuel-fraud' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Tankflucht']}
-          title='Den Verwaltungsaufwand für Fälle von Tankflucht auf 2 Minuten minimieren.'
+          titleComponent='span'
+          title='Den Verwaltungsaufwand für Fälle von Tankflucht auf 2 Minuten
+              minimieren.'
           subtitle='Unsere digitale Lösung bietet Tankstellenbetreibern die höchste Effizient zur Behandlung von Tankfluchtverstösse.'
           images={[RefillIcon, CoinIcon, LikeIcon]}
         />

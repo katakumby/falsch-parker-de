@@ -18,13 +18,13 @@ export const Uber = () => {
         {isFirstScreen ? (
           <div className='relative h-full w-full'>
             <div className='absolute z-[1] flex flex-col p-[100px] text-8xl text-white max-md:p-10 max-md:text-3xl'>
-              <span className='text-white'>
+              <h2 className='text-white'>
                 <span className='text-white/50'>
                   Abschleppdienst <br /> nach
                 </span>
                 <br />
                 <span>UBER-Prinzip.</span>
-              </span>
+              </h2>
               <span className='text-xl max-md:text-lg max-sm:mt-5 max-sm:max-w-[150px] max-sm:text-lg sm:mt-12'>
                 Für ein rasches Eintreffen eines Abschleppwagens.
               </span>

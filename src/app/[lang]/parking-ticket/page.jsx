@@ -25,7 +25,9 @@ const ParkingTicketPage = () => {
     <Container>
       <div className='mb-[172px] mt-[80px] max-md:mb-[60px]'>
         <DivideBanner
-          title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und Privatnutzer.'
+          titleComponent='h1'
+          title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und
+              Privatnutzer.'
           subtitle='Unsere FalschParker-Appandwendung bietet eine breite Palette
           von Funktionen, die über die Ausstellung digitaler Umtriebsentschädigungen
           hinausgehen und das Parkraummanagement optimal unterstützen. Dank unseres
