@@ -27,7 +27,7 @@ const Heading = ({ title, subtitle, icons }) => {
             />
           ))}
         </div>
-        <div className='flex-1'>
+        <div className='max-sm:w-[70%] sm:flex-1'>
           <div
             className={cl(
               'text-2xl max-md:text-sm',

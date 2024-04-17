@@ -25,7 +25,7 @@ export const Uber = () => {
                 <br />
                 <span>UBER-Prinzip.</span>
               </span>
-              <span className='text-xl max-md:text-lg max-sm:mt-5 max-sm:max-w-[150px] max-sm:text-base sm:mt-12'>
+              <span className='text-xl max-md:text-lg max-sm:mt-5 max-sm:max-w-[150px] max-sm:text-lg sm:mt-12'>
                 Für ein rasches Eintreffen eines Abschleppwagens.
               </span>
             </div>
