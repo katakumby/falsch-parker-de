@@ -27,7 +27,7 @@ const FullControl = ({ cover, subtitle, smallCover }) => {
           className='!top-[-350px] object-contain object-center md:hidden'
         />
       </div>
-      <div className='z-10 grid max-w-[480px] gap-9 text-white max-md:gap-6'>
+      <div className='z-10 grid max-w-[600px] gap-9 text-white max-md:gap-6'>
         <h1 className='text-7xl max-md:text-5xl'>Volle Kontrolle.</h1>
         <p className='text-xl max-md:text-base'>{subtitle}</p>
         <div className='flex max-md:justify-center'>

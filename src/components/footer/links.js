@@ -3,7 +3,7 @@ export const footerLinks = [
     title: 'Navigation',
     links: [
       { title: 'Home', href: '' },
-      { title: 'App', href: '/app' },
+      { title: 'App' },
       { title: 'Blog', href: '/blog' },
       { title: 'Kontakt', href: '/contact' },
     ],
