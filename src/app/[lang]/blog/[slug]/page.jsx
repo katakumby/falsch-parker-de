@@ -55,7 +55,7 @@ const Page = async ({ params: { slug, lang } }) => {
         {nextPostSlug ? (
           <div className='flex justify-center'>
             <ArrowDotButton href={`/${lang}/blog/${nextPostSlug}`}>
-              Next blogpost
+              Nächster Blogpost
             </ArrowDotButton>
           </div>
         ) : null}

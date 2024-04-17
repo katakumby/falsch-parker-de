@@ -27,7 +27,7 @@ const ArrowDotButton = ({ href, onClick, children, theme = 'dark' }) => {
         colors[theme]
       )}>
       <ArrowRight className='absolute left-0 -translate-x-full transition-transform duration-300 group-hover:translate-x-4' />
-      <span className='transition-transform duration-300 group-hover:translate-x-5'>
+      <span className='whitespace-nowrap transition-transform duration-300 group-hover:translate-x-5'>
         {children}
       </span>
       <Dot className='transition-transform duration-300 group-hover:scale-0' />
