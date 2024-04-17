@@ -8,7 +8,7 @@ import { ArrowRight } from '@/components/icons/arrowRight';
 import { Cross } from '@/components/icons/cross';
 import { ArrowLeft } from '@/components/icons/arrowLeft';
 import BigCard from '@/images/towing-service/service-big-img.png';
-import SmallCard from '@/images/towing-service/service-small-img.png';
+import SmallCard from '@/images/towing-service/service-small-image.png';
 
 const RenderButtons = ({ setScreen, isTwoScreen }) => {
   return (
