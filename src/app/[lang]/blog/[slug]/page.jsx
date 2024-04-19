@@ -15,7 +15,7 @@ import { ArrowDotButton } from '@/components/buttons/arrowDotButton';
 
 export const generateStaticParams = async () => {
   const slugObjs = await client.fetch(buildGetAllSlugs());
-  return slugObjs.map((slugObj) => ({ slug: slugObj.current }));
+  return slugObjs.map((slugObj) => ({ slug: slugObj.slug.current }));
 };
 
 export const generateMetadata = async ({ params: { slug } }) => {

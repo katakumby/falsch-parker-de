@@ -1,4 +1,11 @@
-export default function sitemap() {
+import { client } from '@/sanity/client';
+import { buildGetAllSlugs } from '@/utils/queries';
+
+export default async function sitemap() {
+  const postsSlugObjs = await client
+    .fetch(buildGetAllSlugs())
+    .then((slugObjs) => slugObjs.map((slugObj) => slugObj.slug.current));
+
   return [
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/home`,
@@ -33,9 +40,15 @@ export default function sitemap() {
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog`,
       lastModified: new Date(),
-      changeFrequency: 'always',
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
+    ...postsSlugObjs.map((slug) => ({
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    })),
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/contact`,
       lastModified: new Date(),
