@@ -7,7 +7,7 @@ import { ArrowRight } from '@/components/icons/arrowRight';
 
 export const ParkingCardApp = ({ text, onClick }) => {
   return (
-    <div className='relative flex h-[205px] w-[250px] flex-col content-between justify-between rounded-card bg-black p-4 max-lg:w-[340px]'>
+    <div className='relative flex h-full w-full flex-col content-between justify-between rounded-card bg-black p-4'>
       <span className=''>{text}</span>
       <Image
         src={MobileLogo}

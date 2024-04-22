@@ -15,14 +15,19 @@ import { CCTVAi } from '@/components/cctv/cctvAi';
 import { ReceivedParkingFine } from '@/app/[lang]/parking-ticket/components/receivedParkingFine';
 import { CancelOrder } from '@/app/[lang]/parking-ticket/components/cancelOrder';
 import { parkingTicketData } from '@/components/faq/faqData';
+import { buildMetadata } from '@/utils/metadata';
+
+export const metadata = buildMetadata('parkingTicket');
 
 const ParkingTicketPage = () => {
   const targetElement = 'parking-ticket-how-it-works';
   return (
     <Container>
-      <div className='mb-[172px] mt-[80px] max-md:mb-[100px]'>
+      <div className='mb-[172px] mt-[80px] max-md:mb-[60px]'>
         <DivideBanner
-          title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und Privatnutzer.'
+          titleComponent='h1'
+          title='Digitale Umtriebsentschädigung ausstellen - für Firmen- und
+              Privatnutzer.'
           subtitle='Unsere FalschParker-Appandwendung bietet eine breite Palette
           von Funktionen, die über die Ausstellung digitaler Umtriebsentschädigungen
           hinausgehen und das Parkraummanagement optimal unterstützen. Dank unseres

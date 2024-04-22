@@ -10,21 +10,23 @@ export const DivideBanner = ({
   subtitle,
   images,
   subtitleClassName = '',
+  titleComponent = 'h1',
 }) => {
+  const Title = titleComponent;
   return (
     <>
       {sectionTitles?.length && (
-        <div className='flex gap-2 pb-3 max-sm:flex-col'>
+        <div className='flex flex-wrap gap-2 pb-3'>
           {sectionTitles.map((title, index) => (
             <SectionTitle title={title} key={index} />
           ))}
         </div>
       )}
-      <div className='border-b border-black pb-14 text-6xl max-md:pb-8 max-md:text-2xl'>
+      <Title className='flex border-b border-black pb-14 text-6xl max-md:pb-8 max-md:text-2xl'>
         {title}
-      </div>
+      </Title>
       <div className='flex pt-14 max-md:pt-8'>
-        <div className='flex w-1/2 items-start'>
+        <div className='flex w-1/2 items-start max-md:w-[35%]'>
           {images?.length &&
             images.map((src, index) => {
               if (index === 0) {
@@ -49,7 +51,7 @@ export const DivideBanner = ({
               }
             })}
         </div>
-        <div className='flex w-1/2 justify-end'>
+        <div className='flex w-1/2 justify-end max-md:w-[65%]'>
           <span
             className={cl(
               'text-3xl text-[#0D0F11] max-md:text-sm',

@@ -16,18 +16,16 @@ export const JoinSection = () => {
           <div className='flex justify-between max-md:w-full  md:w-1/2'>
             <div className='flex flex-col '>
               <span>Schützengasse 4</span>
-              <span>8001 Zurich</span>
-              <span>Switzerland</span>
+              <span>8001 Zürich</span>
             </div>
             <div className='flex flex-col'>
               <span>Schützengasse 4</span>
               <span>8001 Zurich</span>
-              <span>Switzerland</span>
             </div>
           </div>
           <div className='w-1/2 max-md:w-full md:w-1/2 '>
             <div className='max-md:pt-6 max-sm:py-2 md:text-right'>
-              +41 44 123 45 67
+              +41 76 561 88 37
             </div>
           </div>
         </div>

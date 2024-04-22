@@ -24,12 +24,8 @@ const DesktopLinks = ({ lang }) => {
       ))}
       <div className='flex flex-col gap-2'>
         <span className='mb-3 text-2xl'>Our app</span>
-        <AppButton href='/' icon={Apple}>
-          App Store
-        </AppButton>
-        <AppButton href='/' icon={Android}>
-          Google Play
-        </AppButton>
+        <AppButton icon={Apple}>App Store</AppButton>
+        <AppButton icon={Android}>Google Play</AppButton>
       </div>
     </div>
   );

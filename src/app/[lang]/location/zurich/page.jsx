@@ -5,6 +5,9 @@ import Coin from '@/images/global/icons/divideIcons/coin.svg';
 import Clipboard from '@/images/global/icons/divideIcons/clipboard.svg';
 import { Heading } from './components/heading';
 import { Content } from './components/content';
+import { buildLocationMetadata } from '@/utils/metadata';
+
+export const metadata = buildLocationMetadata('Zürich');
 
 const Page = () => {
   return (

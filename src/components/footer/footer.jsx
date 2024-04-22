@@ -72,12 +72,8 @@ const Footer = ({ lang }) => {
         </div>
         <div className='grid grid-cols-2 items-center justify-between font-light max-lg:grid-cols-1 max-lg:flex-col max-lg:place-items-stretch max-lg:gap-2'>
           <div className='flex flex-col items-center gap-2 lg:hidden'>
-            <AppButton icon={Apple} href='/'>
-              App Store
-            </AppButton>
-            <AppButton icon={Android} href='/'>
-              Google Play
-            </AppButton>
+            <AppButton icon={Apple}>App Store</AppButton>
+            <AppButton icon={Android}>Google Play</AppButton>
           </div>
           <span className='text-sm opacity-50 max-lg:mt-4 max-lg:text-center max-lg:text-xs'>
             Copyright © 2024 | All rights reserved

@@ -12,9 +12,10 @@ export const ParkingTicketSection = () => {
   const targetElement = 'howItWorks';
   return (
     <Container>
-      <Element name='parking-ticket' className='my-[170px] max-md:my-[100px]'>
+      <Element name='parking-ticket' className='my-[170px] max-md:my-[60px]'>
         <DivideBanner
           sectionTitles={['Umtriebsentschädigung']}
+          titleComponent='span'
           title='Falschparker mit digitaler Parkbusse auf Privatparkplätzen büssen.'
           subtitle='Die Falsch-Parker-Web-App bietet wirkungsvolle Massnahmen um
           gegen Falschparker vorzugehen. Unsere Web-App eignet sich für alle

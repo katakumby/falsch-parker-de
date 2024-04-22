@@ -44,7 +44,7 @@ export const CCTVAi = () => {
       ) : (
         <div className='relative h-full w-full'>
           <div className='absolute bottom-[100px] left-[100px] z-[1] flex flex-col max-md:bottom-[40px] max-md:left-[40px] max-md:right-[40px]'>
-            <span className='gradient-text bg-gradient-to-r from-white/50 to-white bg-clip-text text-8xl text-transparent max-md:text-5xl'>
+            <h6 className='gradient-text bg-gradient-to-r from-white/50 to-white bg-clip-text text-8xl text-transparent max-md:text-5xl'>
               <span className='max-lg:text-5xl max-sm:hidden'>
                 CCTV & <br /> Automatisierung <br /> durch KI.
               </span>
@@ -52,10 +52,10 @@ export const CCTVAi = () => {
                 CCTV <br /> & <br />
                 Automatisierung <br /> durch KI.
               </span>
-            </span>
-            <span className='gradient-text bg-gradient-to-r from-white/30 to-white/70 bg-clip-text pt-10 text-4xl text-transparent max-md:text-base '>
+            </h6>
+            <h5 className='gradient-text bg-gradient-to-r from-white/30 to-white/70 bg-clip-text pt-10 text-4xl text-transparent max-md:text-base '>
               CCTV-Schnittstellenlösung zur Falschparker Web-App.
-            </span>
+            </h5>
           </div>
           <Image
             src={CTTVAiImage}

@@ -6,8 +6,11 @@ import { Paging } from './components';
 import { client } from '@/sanity/client';
 import { Post } from '@/models/post';
 import { buildGetPostsQuery, buildGetTagsQuery } from '@/utils/queries';
+import { buildMetadata } from '@/utils/metadata';
 
 const limit = +process.env.POSTS_ON_PAGE;
+
+export const metadata = buildMetadata('blog');
 
 const BlogPage = async ({ searchParams, params: { lang } }) => {
   const { page = 1, tag = '' } = searchParams;

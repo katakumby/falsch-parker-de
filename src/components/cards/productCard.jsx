@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { Link } from 'react-scroll';
@@ -22,6 +24,7 @@ export const ProductCard = ({
   className,
   icon = ArrowDown,
   targetElement = null,
+  titleComponent = 'span',
 }) => {
   let src = null;
   let mobileSrc = null;
@@ -58,6 +61,8 @@ export const ProductCard = ({
       break;
   }
 
+  const Title = titleComponent;
+
   return (
     <div>
       {targetElement ? (
@@ -69,9 +74,9 @@ export const ProductCard = ({
           className=''>
           <div className='rounded-br-0 h-[680px] w-[440px] cursor-pointer overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[580px] max-md:w-[328px]'>
             <div className='group relative h-[680px] w-[440px] transform rounded-card grayscale transition duration-500 ease-in-out hover:grayscale-0 max-md:h-[580px] max-md:w-[328px]'>
-              <div className='absolute z-[2] p-10 text-4xl text-white max-md:p-8 max-md:text-3xl'>
+              <Title className='absolute z-[2] p-10 text-4xl text-white max-md:p-8 max-md:text-3xl'>
                 {title}
-              </div>
+              </Title>
               <div className='relative h-[680px] w-[440px] '>
                 <Image
                   src={src}
@@ -97,9 +102,9 @@ export const ProductCard = ({
         // We had to make a duplicate because the modal was cursing, there was no time to fix it
         <div className='rounded-br-0 h-[680px] w-[440px] cursor-pointer overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-md:h-[580px] max-md:w-[328px]'>
           <div className='group relative h-[680px] w-[440px] transform rounded-card grayscale transition duration-500 ease-in-out hover:grayscale-0 max-md:h-[580px] max-md:w-[328px]'>
-            <div className='absolute z-[2] p-10 text-5xl text-white max-md:text-4xl'>
+            <Title className='absolute z-[2] p-10 text-5xl text-white max-md:text-4xl'>
               {title}
-            </div>
+            </Title>
             <div className='relative h-[680px] w-[440px] max-sm:hidden'>
               <Image
                 src={src}

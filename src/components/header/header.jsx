@@ -30,12 +30,14 @@ const Header = ({ lang }) => {
         <Container>
           <div className='flex items-center justify-between'>
             <div className='relative h-[40px] w-[100px] shrink-0 max-lg:h-[35px] max-lg:w-[80px]'>
-              <Image
-                src={Logo}
-                fill
-                alt='Falsch-parker logo'
-                className='object-contain'
-              />
+              <Link href={`/home`} className=''>
+                <Image
+                  src={Logo}
+                  fill
+                  alt='Falsch-parker logo'
+                  className='object-contain'
+                />
+              </Link>
             </div>
             <div className='flex w-full items-center justify-center max-lg:hidden'>
               <ul className='flex w-full max-w-[650px] justify-between'>

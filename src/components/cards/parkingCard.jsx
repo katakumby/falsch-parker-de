@@ -22,7 +22,7 @@ export const ParkingCard = ({ type, text, onClick }) => {
   }
 
   return (
-    <div className='relative flex h-[274px] w-[250px] items-center justify-center overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card max-lg:w-[340px]'>
+    <div className='relative flex h-full w-full items-center justify-center overflow-hidden rounded-bl-card rounded-tl-card rounded-tr-card'>
       <div className='absolute left-0 top-0 z-[1] p-4 text-xl text-white'>
         {text}
       </div>

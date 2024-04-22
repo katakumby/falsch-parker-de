@@ -11,7 +11,7 @@ import { FuelFraudSection } from '@/app/[lang]/home/components/sections/fuelFrau
 import { TestimonialsSection } from '@/app/[lang]/home/components/sections/testimonialsSection';
 import { OtherFeaturesSection } from '@/app/[lang]/home/components/sections/otherFeaturesSection';
 import { FaqSection } from '@/components/faq/faqSection';
-import { homePageData } from '@/components/faq/faqData';
+import { defaultData } from '@/components/faq/faqData';
 
 const Page = () => {
   return (
@@ -24,7 +24,7 @@ const Page = () => {
       <TowingSection />
       <FuelFraudSection />
       <OtherFeaturesSection />
-      <FaqSection data={homePageData} />
+      <FaqSection data={defaultData} />
       <TestimonialsSection />
     </section>
   );

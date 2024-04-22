@@ -17,13 +17,17 @@ import MobileParkingCar from '@/images/home-page/mobil-parking-car.png';
 import { SeeHowItWorks } from '@/components/seeHowItWorks/seeHowItWorks';
 import { TowingPool } from '@/app/[lang]/towing/components/towingPool';
 import { towingData } from '@/components/faq/faqData';
+import { buildMetadata } from '@/utils/metadata';
+
+export const metadata = buildMetadata('towing');
 
 const TowingPage = () => {
   return (
     <Container>
       <section>
-        <div className='mt-20 max-md:mt-[100]'>
+        <div className='mt-20 max-md:mt-[60]'>
           <DivideBanner
+            titleComponent='h1'
             title='Jetzt auf Firmen- und Privatparkplätze abschleppen.'
             subtitle='Sie haben das Recht, Falschparker auf Ihrem Parkplatz abschleppen zu lassen.'
             images={[EyeIcon, PhotoIcon, TowingIcon]}
@@ -42,9 +46,9 @@ const TowingPage = () => {
           desktopClassesImg='ml-[16%] mt-[10%] object-contain max-md:ml-[18%] max-md:mt-[5%]'
           descDesktop={
             <div className='flex flex-col justify-between py-5 text-dark'>
-              <span className='pb-9 text-5xl max-xl:text-3xl'>
+              <h3 className='pb-9 text-5xl max-xl:text-3xl'>
                 Abschleppwagen anfordern.
-              </span>
+              </h3>
               <span className='text-xl'>
                 Rasch und unbürokratisch einen Abschleppwagen in nur 20 Sekunden
                 anfordern, ohne persönlich vor Ort sein zu müssen.
@@ -53,9 +57,9 @@ const TowingPage = () => {
           }
           descMobile={
             <div className='flex flex-col justify-between py-5 text-2xl text-dark'>
-              <span className='pb-9 text-6xl max-md:text-4xl'>
+              <h3 className='pb-9 text-6xl max-md:text-4xl'>
                 Abschleppwagen anfordern.
-              </span>
+              </h3>
               <span className='text-xl'>
                 Rasch und unbürokratisch einen Abschleppwagen in nur 20 Sekunden
                 anfordern, ohne persönlich vor Ort sein zu müssen.
